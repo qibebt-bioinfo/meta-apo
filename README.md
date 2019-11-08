@@ -133,6 +133,7 @@ K00006	0.1
 K00011	0
 K00007	0.2
 ```
+
 **b. Sample lists** 
 
 In the calibration step, considering WGS results as the “golden standard”, Meta-Apo calibrates the predicted functional profiles of amplicon samples using model built in the training step.   
