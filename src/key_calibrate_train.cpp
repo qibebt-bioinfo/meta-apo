@@ -44,7 +44,7 @@ int printhelp(){
     cout << "\tor" << endl;
     cout << "\t  -T (upper) Input KO table (*.ko.abd) of training WGS samples" << endl;
     cout << "\t  -t Input KO table (*.ko.abd) of training amplicon samples" << endl;
-    cout << "\t  -R (upper) If the input table is reversed, T(rue) or F(alse), default is false [Optional for -T]" << endl;
+    cout << "\t  -R (upper) If the input table is reversed, T(rue) or F(alse), default is false [Optional for -T and -t]" << endl;
     
     cout << "\t[Output options]" << endl;
     cout << "\t  Output mode file, default is \"meta-apo.model\" " << endl;
