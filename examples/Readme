@@ -15,10 +15,10 @@
 #
 #Training step
 meta-apo-train -T training.wgs.ko.abd -t training.16s.ko.abd -o meta-apo.model
-
+#
 #Calibration step
 meta-apo-calibrate -t 16s.ko.abd -m meta-apo.model -o 16s.ko.calibrated.abd
-
+#
 #Output description
 #meta-apo.model: Training model for calibration.
 #16s.ko.calibrated.abd: Calibrated gene profiles of 622 samples.
