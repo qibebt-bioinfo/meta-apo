@@ -83,7 +83,9 @@ The Meta-Apo consists of two steps: a. training and b. calibration. Currently th
 
 In the training step, Meta-Apo builds a model by a small number (e.g 15) of paired amplicon-WGS samples using machine learning. Each sample should be sequenced by both shotgun WGS and amplicon (e.g. 16S rRNA), then the parse their functional profiles. For WGS, we recommend to use HuMANn 2 [1], and for amplicons we recommend to use PICRUSt 2 [2].  
 
-For training, the Meta-Apo accepts gene profiles of training paired samples in two formats:  
+For training, the Meta-Apo accepts gene profiles of training paired samples in two formats:
+
+**a. Abundance tables**
 
 ```
 meta-apo-train -T training.wgs.ko.abd -t training.16s.ko.abd -o meta-apo.model
