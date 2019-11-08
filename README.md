@@ -1,7 +1,7 @@
 # meta-apo
 
 ![Version](https://img.shields.io/badge/Version-0.1%20for%20KEGG-brightgreen)
-![Release date](https://img.shields.io/badge/Release%20date-Nov.%2011%2C%202019-brightgreen)
+![Release date](https://img.shields.io/badge/Release%20date-Nov.%2008%2C%202019-brightgreen)
 
 
 
@@ -68,7 +68,7 @@ git clone https://github.com/qibebt-bioinfo/meta-apo.git
 **b. Configure the environment variables (the default environment variable configuration file is “~/.bashrc”)**
 ```
 export MetaApo=Path to MetaApo
-export PATH=”$PATH:$Meta-Apo/bin/”
+export PATH=”$PATH:$MetaApo/bin/”
 source ~/.bashrc
 ```
 **c. Compile the source code**
