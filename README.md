@@ -17,23 +17,21 @@
 
 # Introduction
 
-Using an optimized machine-learning based algorithm and a small number of paired WGS-amplicon samples for training, Meta-Apo calibrates the gene distribution for large-scale 16S-amplicon samples, thus produces much more consistent diversity patterns between the two approaches. Using Meta-Apo, 16S-amplicon sequencing can accurately predict the gene profile of microbiomes, yet with only a small fraction of the cost of WGS sequencing. Moreover, since 16S-amplicon datasets outnumber WGS datasets by a factor of 10 to 100, Meta-Apo enables a much broader “functional” view of the Microbiome Data Universe than what is possible using WGS datasets.
+Meta-Apo (Metagenomic Apochromat) calibrates the predicted gene profiles from 16S-amplicon sequences using an optimized machine-learning based algorithm and a small number of paired WGS-amplicon samples as model training, thus produces diversity patterns that are much more consistent between amplicon- and WGS-based strategies.
+
+The Meta-Apo takes the functional gene profiles of small number (e.g. 15) of WGS-amplicon sample pairs as training, and outputs the calibrated functional profiles of large-scale (e.g. > 1,000) amplicon samples. Currently the Meta-Apo requires functional gene profiles to be annotated using KEGG Ontology.
+
+
 
 # System Requirement and dependency
 
 ## Hardware Requirements
 
-Meta-Apo only requires a standard computer with sufficient RAM to support the operations defined by a user. For typical users, this would be a computer with about 2 GB of RAM. For optimal performance, we recommend a computer with the following specs:
-
-  RAM: 8+ GB  
-  CPU: 4+ cores, 3.3+ GHz/core
+Meta-Apo only requires a standard computer with >1GB RAM to support the operations defined by a user.
 
 ## Software Requirements
 
-OpenMP library is the C/C++ parallel computing library. Most Linux releases have OpenMP already been installed in the system. In Mac OS X, to install the compiler that supports OpenMP, we recommend using the Homebrew package manager:
-```
-brew install gcc
-```
+Meta-Apo only requires a C++ compiler (e.g. g++) to build the source code.
 
 # Installation guide
 
@@ -77,19 +75,28 @@ cd meta-apo
 make
 ```
 # Usage
+Meta-Apo consists of two steps: training and calibration.
+In the training step, Meta-Apo builds a model by a small number of amplicon-WGS pairs using machine learning.
+
 **a. Training for KO abundance calibration**
 ```
-meta-apo-train -t wgs.KO.abd -T 16s.KO.abd -o meta-apo-model.txt
+meta-apo-train -t wgs.training.KO.abd -T 16s.training.KO.abd -o meta-apo-model.txt
 ```
+The parameter 't' requires the abundance table of WGS microbiomes in the WGS-amplicon pairs and the parameter 'T' requires the abundance table of amplicon microbiomes in the WGS-amplicon pairs.
 The output file “meta-apo-model.txt” is the mapping model. 
+
+In the calibration step, considering WGS results as the “golden standard”, Meta-Apo calibrates the predicted functional profiles of amplicon samples using model built in the training step.
 
 **b. Calibration for KO abundance**
 ```
-meta-apo-calibrate -t 16s.all.ko.abd -m meta-apo-model.txt -o meta-apo-calibrated.abd
+meta-apo-calibrate -t 16s.test.KO.abd -m meta-apo-model.txt -o 16s-calibrated.abd
 ```
+The parameter 't' requires the abundance table of amplicon pairs to be calibrated.
+The output file “16s-calibrated.abd” is the calibrated abundance table.
+
 The source files for example of customized reference is available as [Supplementary](#supplementary).
 # Example dataset
-Here we provide a demo dataset (Dataset 1) with relative abundance of 622 WGS-microbiomes pairs in "examples" folder. In this package, "16s.KO.abd" is relative abundance of the amplicon microbiomes in 15 WGS-amplicon pairs for training, "wgs.KO.abd" is relative abundance of the WGS microbiomes in WGS-amplicon pairs for training, "16s.all.KO.abd" is relative abundance of all amplicon microbiomes for calibration.
+Here we provide a demo dataset in "examples" folder. In this package, "16s.training.KO.abd" is relative abundance of the 15 amplicon microbiomes in WGS-amplicon pairs for training, "wgs.training.KO.abd" is relative abundance of the 15 WGS microbiomes in WGS-amplicon pairs for training, "16s.test.KO.abd" is relative abundance of amplicon microbiomes for calibration.
 
 To run the demo, you can either:
 ```
@@ -98,30 +105,17 @@ sh Readme
 ```
 or type the following command:
 ```
-meta-apo-train -t wgs.KO.abd -T 16s.KO.abd -o meta-apo-model.txt
-meta-apo-calibrate -t 16s.all.ko.abd -m meta-apo-model.txt -o meta-apo-calibrated
+meta-apo-train -t wgs.training.KO.abd -T 16s.training.KO.abd -o meta-apo-model.txt
+meta-apo-calibrate -t 16s.test.ko.abd -m meta-apo-model.txt -o 16s-calibrated.abd
 ```
-Then the output file “meta-apo-model.txt” is the mapping model, and "meta-apo-calibrated" is the calibration rusult file.
+Then the output file “16s-model.txt” is the mapping model, and "16s-calibrated.abd" is the calibrated relative abundance of the amplicon microbiomes.
 
 This demo run should take less than 1 minute on a recommended computer.
 
-# Tools in this package
-**a. meta-apo-train**
-
-It trains for KO abundance calibration. Run:
-```
-meta-apo-train -h
-```
-for detailed parameters.
-
-**b. meta-apo-calibrate**
-
-It calculates for KO abundance. Run:
-```
-meta-apo-calibrate -h
-```
-for detailed parameters.
 
 # Supplementary
 
-[Dataset 1](***) contains relative abundance of 622 WGS-amplicon pairs.
+[Dataset 1](***) contains 622 sample pairs of WGS and V3-V5 region 16S rRNA amplicon samples.
+[Dataset 2](***) contains 295 sample pairs of WGS and V1-V3 region 16S rRNA amplicon samples.
+[Dataset 3](***) contains 2,354 WGS samples and 5,350 V3-V5 16S rRNA amplicon samples.
+[Dataset 4](***) contains 2,045 WGS samples and 2,186 V1-V3 16S rRNA amplicon samples.
