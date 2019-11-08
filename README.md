@@ -20,7 +20,8 @@ Meta-Apo (Metagenomic Apochromat) calibrates the predicted gene profiles from 16
 
 The Meta-Apo takes the functional gene profiles of small number (e.g. 15) of WGS-amplicon sample pairs as training, and outputs the calibrated functional profiles of large-scale (e.g. > 1,000) amplicon samples. Currently the Meta-Apo requires functional gene profiles to be annotated using KEGG Ontology.
 
-![Fig.1. Calibration of predicted functional profiles of microbiome amplicon samples by a small number of amplicon-WGS sample pairs for training. ](http://bioinfo.single-cell.cn/images/Fig.1.jpg)
+![Fig.1. Calibration of predicted functional profiles of microbiome amplicon samples by a small number of amplicon-WGS sample pairs for training. ](http://bioinfo.single-cell.cn/images/Fig.1.jpg)  
+<div align=center>Fig.1. Calibration of predicted functional profiles of microbiome amplicon samples by a small number of amplicon-WGS sample pairs for training.</div>
 
 
 
