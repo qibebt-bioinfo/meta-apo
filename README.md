@@ -16,11 +16,11 @@
 
 # Introduction
 
-Meta-Apo (Metagenomic Apochromat) calibrates the predicted gene profiles from 16S-amplicon sequences using an optimized machine-learning based algorithm and a small number of paired WGS-amplicon samples as model training, thus produces diversity patterns that are much more consistent between amplicon- and WGS-based strategies (Fig.1).
+Meta-Apo (Metagenomic Apochromat) calibrates the predicted gene profiles from 16S-amplicon sequences using an optimized machine-learning based algorithm and a small number of paired WGS-amplicon samples as model training, thus produces diversity patterns that are much more consistent between amplicon- and WGS-based strategies (Fig. 1).
 
 The Meta-Apo takes the functional gene profiles of small number (e.g. 15) of WGS-amplicon sample pairs as training, and outputs the calibrated functional profiles of large-scale (e.g. > 1,000) amplicon samples. Currently the Meta-Apo requires functional gene profiles to be annotated using KEGG Ontology.
 
-![Fig.1. Calibration of predicted functional profiles of microbiome amplicon samples by a small number of amplicon-WGS sample pairs for training. ](http://bioinfo.single-cell.cn/images/Fig.1.jpg)  
+![Fig. 1. Calibration of predicted functional profiles of microbiome amplicon samples by a small number of amplicon-WGS sample pairs for training. ](http://bioinfo.single-cell.cn/images/Fig.1.jpg)  
 <div align=center>Fig.1. Calibration of predicted functional profiles of microbiome amplicon samples by a small number of amplicon-WGS sample pairs for training.</div>
 
 
@@ -82,7 +82,7 @@ The Meta-Apo consists of two steps: **a. training** and **b. calibration**. Curr
 
 **I. Training for KO abundance calibration** 
 
-In the training step, Meta-Apo builds a model by a small number (e.g 15) of paired amplicon-WGS samples using machine learning. Each sample should be sequenced by both shotgun WGS and amplicon (e.g. 16S rRNA), then parse their functional profiles. For WGS, we recommend to use HuMANn 2 [1], and for amplicons we recommend to use PICRUSt 2 [2].  
+In the training step, Meta-Apo builds a model by a small number (e.g 15) of paired amplicon-WGS samples using machine learning. Each sample should be sequenced by both shotgun WGS and amplicon (e.g. 16S rRNA), then we parse their functional profiles. We recommend HuMANn 2 [1] for WGS functional profiling, and PICRUSt 2 [2] for amplicon functional prediction.  
 
 For training, the Meta-Apo accepts gene profiles of training paired samples in two formats:
 
@@ -117,13 +117,13 @@ meta-apo-train -L training.wgs.list -t training.16s.list -o meta-apo.model
 in which parameter “-L” assigns the file list of training WGS samples and “-t” assigns that of training amplicons. Orders of paired samples should be exactly consistent in the input WGS and amplicon lists. In the input list, each line contains the path of one single sample’s gene profile.    
 The format of a gene profile list of training WGS samples: 
 ```
-Sample1	Sample2.ko.out
-Sample2	Sample2.ko.out
-Sample3	Sample3.ko.out
+Sample1	/home/data/sample1.ko.out
+Sample2	/home/data/sample2.ko.out
+Sample3	/home/data/sample3.ko.out
 ...
-SampleN	SampleN.ko.out
+SampleN	/home/data/sampleN.ko.out
 ```
-And the format of a single sample’s gene profile:
+And the format of each single sample's gene profile in the list (e.g. for sample1.ko.out):
 ```
 #KO Count
 K00001	0.1
