@@ -79,7 +79,7 @@ The Meta-Apo consists of two steps: a. training and b. calibration. Currently th
 
 **I. Training for KO abundance calibration** 
 
-In the training step, Meta-Apo builds a model by a small number (e.g 15) of paired amplicon-WGS samples using machine learning. Each sample should be sequenced by both shotgun WGS and amplicon (e.g. 16S rRNA), then the parse their functional profiles. For WGS, we recommend to use HuMANn 2 [ref], and for amplicons we recommend to use PICRUSt 2 [ref].  
+In the training step, Meta-Apo builds a model by a small number (e.g 15) of paired amplicon-WGS samples using machine learning. Each sample should be sequenced by both shotgun WGS and amplicon (e.g. 16S rRNA), then the parse their functional profiles. For WGS, we recommend to use HuMANn 2 [1], and for amplicons we recommend to use PICRUSt 2 [2].  
 
 For training, the Meta-Apo accepts gene profiles of training paired samples in two formats:  
 
@@ -185,4 +185,8 @@ We also provide more datasets for test run, which is used in the manuscript “M
 [Dataset 1](***) contains 622 paired samples of WGS and V3-V5 region 16S rRNA amplicon samples (also integrated in the source code package as example dataset for demo run).  
 [Dataset 2](***) contains 295 paired samples of WGS and V1-V3 region 16S rRNA amplicon samples.   
 [Dataset 3](***) contains unpaired 2,354 WGS samples and 5,350 V3-V5 16S rRNA amplicon samples.  
-[Dataset 4](***) contains unpaired 2,045 WGS samples and 2,186 V1-V3 16S rRNA amplicon samples.  
+[Dataset 4](***) contains unpaired 2,045 WGS samples and 2,186 V1-V3 16S rRNA amplicon samples.
+
+# Reference
+1. Abubucker, S., et al., _Metabolic Reconstruction for Metagenomic Data and Its Application to the Human Microbiome_. 2012.
+2. Langille, M.G., et al., _Predictive functional profiling of microbial communities using 16S rRNA marker gene sequences. Nat Biotechnol_, 2013. 31(9): p. 814-21.
