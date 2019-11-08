@@ -85,11 +85,11 @@ The output file “meta-apo-model.txt” is the mapping model.
 
 **b. Calibration for KO abundance**
 ```
-meta-apo-calibrate -t 16s.all.ko.abd -m meta-apo-model.txt -o meta-apo-calibrated
+meta-apo-calibrate -t 16s.all.ko.abd -m meta-apo-model.txt -o meta-apo-calibrated.abd
 ```
 The source files for example of customized reference is available as [Supplementary](#supplementary).
 # Example dataset
-Here we provide a demo dataset (Synthetic Dataset 1) with relative abundance of amplicon microbiomes of 15 paired pairs in "example" folder. In this package, "16s.KO.abd" is relative abundance of amplicon microbiomes of 15 paired pairs, "wgs.KO.abd" is relative abundance of WGS microbiomes 15 WGS-amplicon pairs, "16s.all.KO.abd" is relative abundance of all amplicon microbiomes.
+Here we provide a demo dataset (Dataset 1) with relative abundance of amplicon microbiomes of 15 paired pairs in "example" folder. In this package, "16s.KO.abd" is relative abundance of the amplicon microbiomes in 15 WGS-amplicon pairs for training, "wgs.KO.abd" is relative abundance of the WGS microbiomes in WGS-amplicon pairs for training, "16s.all.KO.abd" is relative abundance of all amplicon microbiomes for calibration.
 
 To run the demo, you can either:
 ```
@@ -132,4 +132,4 @@ for detailed parameters.
 
 # Supplementary
 
-[Synthetic Dataset 1](***) contains relative abundance of amplicon microbiomes of 15 paired pairs.
+[Dataset 1](***) contains relative abundance of 622 WGS-amplicon pairs.
