@@ -1,9 +1,10 @@
 #Here we provide a demo dataset with KO abundance of 622 paired WGS-amplicon microbiomes
 #
 #File description
-#16s.KO.abd: relative abundance of amplicon microbiomes of 15 paired pairs.
-#wgs.KO.abd: relative abundance of WGS microbiomes 15 WGS-amplicon pairs.
-#16s.all.KO.abd: relative abundance of all amplicon microbiomes.
+#training.wgs.ko.abd: the gene relative abundance table of 15 training WGS samples.
+#training.16s.ko.abd: the gene relative abundance table of 15 matched training amplicon samples.
+#16s.KO.abd: the gene profiles of samples for calibration.
+#meta.txt: the meta-data of samples for calibration.
 #To run the demo, you can either
 #
 #sh Readme
