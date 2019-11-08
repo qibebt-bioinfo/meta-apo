@@ -98,7 +98,7 @@ The output file “16s-calibrated.abd” is the calibrated abundance table.
 
 The source files for example of customized reference is available as [Supplementary](#supplementary).  
 # Example dataset
-Here we provide a demo dataset in "examples" folder. In this package, "16s.training.KO.abd" is relative abundance of the 15 amplicon microbiomes in WGS-amplicon pairs for training, "wgs.training.KO.abd" is relative abundance of the 15 WGS microbiomes in WGS-amplicon pairs for training, "16s.test.KO.abd" is relative abundance of amplicon microbiomes for calibration.
+Here we provide a demo dataset in "examples" folder. In this package, "16s.training.KO.abd" is the relative abundance table of amplicon microbiomes for training, "wgs.training.KO.abd" is the relative abundance table of corresponding WGS microbiomes. "16s.test.KO.abd" is the relative abundance table of amplicon microbiomes for calibration.
 
 To run the demo, you can either:
 ```
