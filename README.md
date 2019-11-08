@@ -12,7 +12,6 @@
 - [Installation guide](#installation-guide)
 - [Usage](#usage)
 - [Example dataset](#example-dataset)
-- [Tools in this package](#tools-in-this-package)
 - [Supplementary](#supplementary)
 
 # Introduction
@@ -76,6 +75,8 @@ make
 ```
 # Usage
 Meta-Apo consists of two steps: training and calibration.  
+
+
 In the training step, Meta-Apo builds a model by a small number of amplicon-WGS pairs using machine learning.  
 
 **a. Training for KO abundance calibration**
@@ -84,6 +85,7 @@ meta-apo-train -t wgs.training.KO.abd -T 16s.training.KO.abd -o meta-apo-model.t
 ```
 The parameter 't' requires the abundance table of WGS microbiomes in the WGS-amplicon pairs and the parameter 'T' requires the abundance table of amplicon microbiomes in the WGS-amplicon pairs.  
 The output file “meta-apo-model.txt” is the mapping model.   
+
 
 In the calibration step, considering WGS results as the “golden standard”, Meta-Apo calibrates the predicted functional profiles of amplicon samples using model built in the training step.  
 
