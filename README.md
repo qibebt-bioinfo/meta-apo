@@ -122,14 +122,6 @@ meta-apo-calibrate -h
 ```
 for detailed parameters.
 
-**c. PM-comp-func**
-
-It computes the Meta-Storms functional distance/similarity among samples. Run:
-```
-PM-comp-func -h
-```
-for detailed parameters.
-
 # Supplementary
 
 [Dataset 1](***) contains relative abundance of 622 WGS-amplicon pairs.
