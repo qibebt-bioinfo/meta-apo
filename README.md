@@ -155,7 +155,8 @@ For calibration, the Meta-Apo also accepts gene profiles of amplicon samples in 
 ```
 meta-apo-calibrate -t 16s.ko.abd -m meta-apo.model -o 16s.ko.calibrated.abd
 ```
-The output file “16s.ko.calibrated.abd” is the calibrated gene abundance table.  
+The output file “16s.ko.calibrated.abd” is the calibrated gene abundance table. 
+
 **b. Sample list**  
 ```
 meta-apo-train -l 16s.ko.list -m meta-apo.model -o 16s.ko.calibrated.out
