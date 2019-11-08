@@ -77,7 +77,8 @@ make
 The Meta-Apo consists of two steps: a. training and b. calibration. Currently the Meta-Apo requires all functional gene profiles to be annotated using KEGG Ontology. 
 
 
-**I. Training for KO abundance calibration**  
+**I. Training for KO abundance calibration** 
+
 In the training step, Meta-Apo builds a model by a small number (e.g 15) of paired amplicon-WGS samples using machine learning. Each sample should be sequenced by both shotgun WGS and amplicon (e.g. 16S rRNA), then the parse their functional profiles. For WGS, we recommend to use HuMANn 2 [ref], and for amplicons we recommend to use PICRUSt 2 [ref].  
 
 For training, the Meta-Apo accepts gene profiles of training paired samples in two formats:  
@@ -89,6 +90,14 @@ in which parameter “-T” assigns the gene relative abundance table of trainin
 
 
 The format of a gene profile table of training WGS samples:  
+```
+Sample	K00001	K00002	K00003	K00004	K00005	K00010	K00006	K00011	K00007	K00012	K00008	K00013	K00009
+Sample_1	4.72E-06	0	0.000248375	0	6.36E-06	4.16E-06	0	0	0	0.00187845	0.000431322	0.00129624	0
+Sample_2	0.00046572	0	0.000713339	2.15E-06	1.78E-05	6.55E-06	0	0	0	0.00123159	0.000427736	0.00124583	7.24E-06
+...
+
+```
+
 
 The training amplicon table is in the same format, and order of each sample is exactly matched with the training WGS table.  
 
@@ -97,10 +106,25 @@ meta-apo-train -L training.wgs.list -t training.16s.list -o meta-apo.model
 ```
 
 in which parameter “-L” assigns the file list of training WGS samples and “-t” assigns that of training amplicons. Orders of paired sample should be exactly matched in the input WGS and amplicon lists. In the input list, each line contains the path of one single sample’s gene profile.    
-The format of a gene profile list of training WGS samples:  
-
-
-And the format of a single sample’s gene profile  
+The format of a gene profile list of training WGS samples: 
+```
+Sample_1	Sample_2.ko.out
+Sample_2	Sample_2.ko.out
+...
+```
+And the format of a single sample’s gene profile:
+```
+#Gene output
+K01153  53.07
+K00881  2.172
+K07726  2.48
+K16924  17.664
+K02077  101.677
+K03698  10.143
+K07461  41.5
+K00097  100.787
+....
+```
 
 b. Sample lists  
 
