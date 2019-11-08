@@ -1,6 +1,6 @@
 # meta-apo
 
-![Version](https://img.shields.io/badge/Version-0.1%20for%20KEGG-brightgreen)
+![Version](https://img.shields.io/badge/Version-1.0%20)
 ![Release date](https://img.shields.io/badge/Release%20date-Nov.%2008%2C%202019-brightgreen)
 
 
