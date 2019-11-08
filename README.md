@@ -83,7 +83,7 @@ In the training step, Meta-Apo builds a model by a small number (e.g 15) of pair
 For training, the Meta-Apo accepts gene profiles of training paired samples in two formats:  
 
 ```
-meta-apo-train -T training.wgs.ko.abd -t training.16s.ko.abd -o model.out
+meta-apo-train -T training.wgs.ko.abd -t training.16s.ko.abd -o meta-apo.model
 ```
 in which parameter “-T” assigns the gene relative abundance table of training WGS samples and “-t” assigns that of training amplicons. Orders of paired sample should be exactly matched in the input WGS and amplicon tables.  
 
