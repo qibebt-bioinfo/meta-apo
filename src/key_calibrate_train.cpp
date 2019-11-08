@@ -23,7 +23,7 @@ string Target_file;
 
 string Ref_table;
 string Target_table;
-string Modelfilename = "meta-apo-model.txt";
+string Modelfilename = "meta-apo.model";
 
 int Mode = 0; //0: single, 1: multi, 2: multi_table
 bool Reversed_table = false;
@@ -32,24 +32,22 @@ bool Reversed_table = false;
 int printhelp(){
     
     cout << "meta-apo-train version : " << Version << endl;
-    cout << "\tTraining for KO abundance calibration" << endl;
+    cout << "\tModel training using gene profiles of paired WGS-amplicon microbiomes" << endl;
     cout << "Usage: " << endl;
     cout << "meta-apo-train [Option] Value" << endl;
     cout << "Options: " << endl;
-    cout << "\t-D (upper) ref database, " << _PMDB::Get_Args() << endl;
     
     cout << "\t[Input options, required]" << endl;
-    cout << "\t  -l Input files list of WGS samples" << endl;
-    cout << "\tor" << endl;
-    cout << "\t  -L(upper) Input files list of	16S samples" << endl;
+    cout << "\t  -L (upper) Input files list of training WGS samples" << endl;
+    cout << "\t  -l Input files list of training amplicon samples" << endl;
     cout << "\t  -p List files path prefix [Optional for -l and -L]" << endl;
     cout << "\tor" << endl;
-    cout << "\t  -t Input KO relative abundance table (*.KO.abd) of WGS samples" << endl;
-    cout << "\t  -T (upper) Input KO relative abundance table (*.KO.abd) of 16S samples" << endl;
-    cout << "\t  -R If the input table is reversed, T(rue) or F(alse), default is false [Optional for -T]" << endl;
+    cout << "\t  -T (upper) Input KO table (*.ko.abd) of training WGS samples" << endl;
+    cout << "\t  -t Input KO table (*.ko.abd) of training amplicon samples" << endl;
+    cout << "\t  -R (upper) If the input table is reversed, T(rue) or F(alse), default is false [Optional for -T]" << endl;
     
     cout << "\t[Output options]" << endl;
-    cout << "\t  -o Output mode file, default is \"meta-apo-model.txt\"" << endl;
+    cout << "\t  Output mode file, default is \"meta-apo.model\" " << endl;
 	
     cout << "\t[Other options]" << endl;
     cout << "\t  -h Help" << endl;
@@ -78,12 +76,12 @@ int Parse_Para(int argc, char * argv[]){
             //case 'D': Ref_db = argv[i+1][0]; break;
 	    //case 'i': Ref_file = argv[i+1]; Mode = 0; break;
             //case 'I': Target_file = argv[i+1]; Mode = 0; break; 
-            case 'l': Ref_list = argv[i+1]; Mode = 1; break;
-	    case 'L': Target_list = argv[i+1]; Mode = 1; break;
+            case 'L': Ref_list = argv[i+1]; Mode = 1; break;
+	    case 'l': Target_list = argv[i+1]; Mode = 1; break;
             case 'p': Listprefix = argv[i+1]; break;
             
-            case 't': Ref_table = argv[i+1]; Mode = 2; break;
-			case 'T': Target_table = argv[i+1]; Mode = 2; break;
+            case 'T': Ref_table = argv[i+1]; Mode = 2; break;
+			case 't': Target_table = argv[i+1]; Mode = 2; break;
             case 'R': if ((argv[i+1][0] == 't') || (argv[i+1][0] == 'T')) Reversed_table = true; break;
             
 			case 'o': Modelfilename = argv[i+1]; break;
@@ -156,13 +154,8 @@ int main(int argc, char * argv[]){
             	for (int i = 0; i < ref_count; i ++){
 						ref_abd[i] = new float [comp_tree_func.Get_GeneN()];
                                 		target_abd[i] = new float [comp_tree_func.Get_GeneN()];
-						for(int j = 0; j < comp_tree_func.Get_GeneN(); j++){
-        						ref_abd[i][j] = ref_table.Get_Abd_By_Order(i, j);
-							}
-						for(int j = 0; j < comp_tree_func.Get_GeneN(); j++){
-                                                        target_abd[i][j] = target_table.Get_Abd_By_Order(i, j);
-                                                        }
-
+						comp_tree_func.Load_Gene_Count(&ref_table, ref_abd[i], i);
+						comp_tree_func.Load_Gene_Count(&target_table, target_abd[i], i);	
         			
         			}
 

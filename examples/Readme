@@ -12,12 +12,9 @@
 #type the following command
 #
 #Commands
-##Training step
-meta-apo-train -t wgs.KO.abd -T 16s.KO.abd -o meta-apo-model.txt
-
+meta-apo-train -T training.wgs.ko.abd -t training.16s.ko.abd -o meta-apo.model
 ##Calibration step
-meta-apo-calibrate -t 16s.all.KO.abd -m meta-apo-model.txt -o meta-apo-calibrated.abd
-
+meta-apo-calibrate -t 16s.ko.abd -m meta-apo.model -o 16s.ko.calibrated.abd
 #Output description
 #meta-apo-model.txt: mapping model
 #

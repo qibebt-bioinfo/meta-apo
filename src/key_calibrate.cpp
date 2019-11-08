@@ -22,7 +22,7 @@ string Input_file;
 string Input_table;
 string Modelfilename;
 
-string Outpath = "func-calibrated.KO.Abd";
+string Outpath = "functions.calibrated";
 string Outpath_list;
 
 int Mode = 0; //0: single, 1: multi, 2: multi_table
@@ -34,26 +34,26 @@ _Key_Calibrate key_calibrate;
 int printhelp(){
     
     cout << "meta-apo-calibrate version : " << Version << endl;
-    cout << "\tcalibration for KO abundance" << endl;
+    cout << "\tCalibration of predicted gene profiles of amplicon microbiomes" << endl;
     cout << "Usage: " << endl;
     cout << "meta-apo-calibrate [Option] Value" << endl;
     cout << "Options: " << endl;
     
     cout << "\t[Input options, required]" << endl;
-	cout << "\t  -i Input file for calibration" << endl;
-    cout << "\t  -l Input files list for calibration" << endl;
+	cout << "\t  -i Input a gene profile file for a single sample" << endl;
+	cout << "\tor" << endl;
+    cout << "\t  -l Input files list for multiple samples" << endl;
+    cout << "\t  -p List files path prefix [Optional for -l]" << endl;
     cout << "\tor" << endl;
-    cout << "\t  -p List files path prefix [Optional for -l and -L]" << endl;
-    cout << "\tor" << endl;
-	cout << "\t  -t Input KO relative abundance table (*.KO.abd) for calibration" << endl;
-	cout << "\t  -R If the input table is reversed, T(rue) or F(alse), default is false [Optional for -T]" << endl;
+	cout << "\t  -t Input KO table (*.ko.abd) for multiple samples" << endl;
+	cout << "\t  -R (upper) If the input table is reversed, T(rue) or F(alse), default is false [Optional for -t]" << endl;
 	
-    cout << "\t  -m Input model for calibration" << endl;
+    cout << "\t  -m Input model file" << endl;
 	
     
     
     cout << "\t[Output options]" << endl;
-    cout << "\t  -o Output path, default is \"func-calibrated\"" << endl;
+    cout << "\t  -o Output path, default is \"functions.calibrated\"" << endl;
 	
     cout << "\t[Other options]" << endl;
     cout << "\t  -h Help" << endl;
@@ -175,9 +175,7 @@ int main(int argc, char * argv[]){
             	float ** cal_abd = new float * [input_count]; 
             	for (int i = 0; i < input_count; i ++){
             		input_abd[i] = new float [comp_tree_func.Get_GeneN()];
-            		for(int j = 0; j < comp_tree_func.Get_GeneN(); j++){
-            			input_abd[i][j] = input_table.Get_Abd_By_Order(i, j);
-            		} 
+			comp_tree_func.Load_Gene_Count(&input_table, input_abd[i], i);
             	}
             	for (int i = 0; i < input_count; i ++){
         			cal_abd[i] = new float [comp_tree_func.Get_GeneN()];
