@@ -1,6 +1,6 @@
 # Meta-Apo
 
-![Version](https://img.shields.io/badge/Version-1.0-brightgreen)
+![Version](https://img.shields.io/badge/Version-1.0%20)
 ![Release date](https://img.shields.io/badge/Release%20date-Nov.%2008%2C%202019-brightgreen)
 
 
@@ -75,26 +75,26 @@ cd meta-apo
 make
 ```
 # Usage
-Meta-Apo consists of two steps: training and calibration.
-In the training step, Meta-Apo builds a model by a small number of amplicon-WGS pairs using machine learning.
+Meta-Apo consists of two steps: training and calibration.  
+In the training step, Meta-Apo builds a model by a small number of amplicon-WGS pairs using machine learning.  
 
 **a. Training for KO abundance calibration**
 ```
 meta-apo-train -t wgs.training.KO.abd -T 16s.training.KO.abd -o meta-apo-model.txt
 ```
-The parameter 't' requires the abundance table of WGS microbiomes in the WGS-amplicon pairs and the parameter 'T' requires the abundance table of amplicon microbiomes in the WGS-amplicon pairs.
-The output file “meta-apo-model.txt” is the mapping model. 
+The parameter 't' requires the abundance table of WGS microbiomes in the WGS-amplicon pairs and the parameter 'T' requires the abundance table of amplicon microbiomes in the WGS-amplicon pairs.  
+The output file “meta-apo-model.txt” is the mapping model.   
 
-In the calibration step, considering WGS results as the “golden standard”, Meta-Apo calibrates the predicted functional profiles of amplicon samples using model built in the training step.
+In the calibration step, considering WGS results as the “golden standard”, Meta-Apo calibrates the predicted functional profiles of amplicon samples using model built in the training step.  
 
 **b. Calibration for KO abundance**
 ```
 meta-apo-calibrate -t 16s.test.KO.abd -m meta-apo-model.txt -o 16s-calibrated.abd
 ```
-The parameter 't' requires the abundance table of amplicon pairs to be calibrated.
-The output file “16s-calibrated.abd” is the calibrated abundance table.
+The parameter 't' requires the abundance table of amplicon pairs to be calibrated.  
+The output file “16s-calibrated.abd” is the calibrated abundance table.  
 
-The source files for example of customized reference is available as [Supplementary](#supplementary).
+The source files for example of customized reference is available as [Supplementary](#supplementary).  
 # Example dataset
 Here we provide a demo dataset in "examples" folder. In this package, "16s.training.KO.abd" is relative abundance of the 15 amplicon microbiomes in WGS-amplicon pairs for training, "wgs.training.KO.abd" is relative abundance of the 15 WGS microbiomes in WGS-amplicon pairs for training, "16s.test.KO.abd" is relative abundance of amplicon microbiomes for calibration.
 
