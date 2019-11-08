@@ -1,10 +1,10 @@
 #Here we provide a demo dataset with KO abundance of 622 paired WGS-amplicon microbiomes
 #
 #File description
-#training.wgs.ko.abd: the gene relative abundance table of 15 training WGS samples.
-#training.16s.ko.abd: the gene relative abundance table of 15 matched training amplicon samples.
-#16s.ko.abd: the gene profiles of samples for calibration.
-#meta.txt: the meta-data of samples for calibration.
+#training.wgs.ko.abd: the gene relative abundance table of 15 training WGS samples for training.
+#training.16s.ko.abd: the gene relative abundance table of 15 paired training amplicon samples for training.
+#16s.ko.abd: the gene profiles of 622 samples for calibration.
+#meta.txt: the meta-data of 622 samples for calibration.
 #To run the demo, you can either
 #
 #sh Readme
@@ -13,10 +13,13 @@
 #type the following command
 #
 #Commands
-meta-apo-train -T training.wgs.ko.abd -t training.16s.ko.abd -o meta-apo.model
-##Calibration step
-meta-apo-calibrate -t 16s.ko.abd -m meta-apo.model -o 16s.ko.calibrated.abd
-#Output description
-#meta-apo-model.txt: mapping model
 #
-#meta-apo-calibrated: The calibration file path.
+#Training step
+meta-apo-train -T training.wgs.ko.abd -t training.16s.ko.abd -o meta-apo.model
+
+#Calibration step
+meta-apo-calibrate -t 16s.ko.abd -m meta-apo.model -o 16s.ko.calibrated.abd
+
+#Output description
+#meta-apo.model: Training model for calibration.
+#16s.ko.calibrated.abd: Calibrated gene profiles of 622 samples.
