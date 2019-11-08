@@ -9,9 +9,7 @@
 #sh Readme
 #
 #or
-#type the following command
-#
-#Commands
+#type the following commands
 #
 #Training step
 meta-apo-train -T training.wgs.ko.abd -t training.16s.ko.abd -o meta-apo.model
