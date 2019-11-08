@@ -115,10 +115,7 @@ This demo run should take less than 1 minute on a recommended computer.
 
 # Supplementary
 
-[Dataset 1](***) contains 622 sample pairs of WGS and V3-V5 region 16S rRNA amplicon samples.
-
-[Dataset 2](***) contains 295 sample pairs of WGS and V1-V3 region 16S rRNA amplicon samples.
-
-[Dataset 3](***) contains 2,354 WGS samples and 5,350 V3-V5 16S rRNA amplicon samples.
-
-[Dataset 4](***) contains 2,045 WGS samples and 2,186 V1-V3 16S rRNA amplicon samples.
+[Dataset 1](***) contains 622 sample pairs of WGS and V3-V5 region 16S rRNA amplicon samples.  
+[Dataset 2](***) contains 295 sample pairs of WGS and V1-V3 region 16S rRNA amplicon samples.  
+[Dataset 3](***) contains 2,354 WGS samples and 5,350 V3-V5 16S rRNA amplicon samples.  
+[Dataset 4](***) contains 2,045 WGS samples and 2,186 V1-V3 16S rRNA amplicon samples.  
