@@ -177,7 +177,6 @@ sh Readme
 or type the following command:
 ```
 meta-apo-train -T training.wgs.ko.abd -t training.16s.ko.abd -o meta-apo.model
-
 meta-apo-calibrate -t 16s.ko.abd -m meta-apo.model -o 16s.ko.calibrated.abd
 
 ```
