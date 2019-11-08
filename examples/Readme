@@ -1,0 +1,24 @@
+#Here we provide a demo dataset with KO abundance of 622 paired WGS-amplicon microbiomes
+#
+#File description
+#16s.KO.abd: relative abundance of amplicon microbiomes of 15 paired pairs.
+#wgs.KO.abd: relative abundance of WGS microbiomes 15 WGS-amplicon pairs.
+#16s.all.KO.abd: relative abundance of all amplicon microbiomes.
+#To run the demo, you can either
+#
+#sh Readme
+#
+#or
+#type the following command
+#
+#Commands
+##Training step
+meta-apo-train -t wgs.KO.abd -T 16s.KO.abd -o meta-apo-model.txt
+
+##Calibration step
+meta-apo-calibrate -t 16s.all.KO.abd -m meta-apo-model.txt -o meta-apo-calibrated.abd
+
+#Output description
+#meta-apo-model.txt: mapping model
+#
+#meta-apo-calibrated: The calibration file path.
