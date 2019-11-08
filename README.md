@@ -81,7 +81,7 @@ The Meta-Apo consists of two steps: a. training and b. calibration. Currently th
 
 **I. Training for KO abundance calibration** 
 
-In the training step, Meta-Apo builds a model by a small number (e.g 15) of paired amplicon-WGS samples using machine learning. Each sample should be sequenced by both shotgun WGS and amplicon (e.g. 16S rRNA), then the parse their functional profiles. For WGS, we recommend to use HuMANn 2 [1], and for amplicons we recommend to use PICRUSt 2 [2].  
+In the training step, Meta-Apo builds a model by a small number (e.g 15) of paired amplicon-WGS samples using machine learning. Each sample should be sequenced by both shotgun WGS and amplicon (e.g. 16S rRNA), then parse their functional profiles. For WGS, we recommend to use HuMANn 2 [1], and for amplicons we recommend to use PICRUSt 2 [2].  
 
 For training, the Meta-Apo accepts gene profiles of training paired samples in two formats:
 
@@ -90,7 +90,7 @@ For training, the Meta-Apo accepts gene profiles of training paired samples in t
 ```
 meta-apo-train -T training.wgs.ko.abd -t training.16s.ko.abd -o meta-apo.model
 ```
-in which parameter “-T” assigns the gene relative abundance table of training WGS samples and “-t” assigns that of training amplicons. Orders of paired sample should be exactly matched in the input WGS and amplicon tables.  
+in which parameter “-T” assigns the gene relative abundance table of training WGS samples and “-t” assigns that of training amplicons. Orders of paired samples should be exactly consistent in the input WGS and amplicon tables.  
 
 
 The format of a gene profile table of training WGS samples:  
@@ -105,13 +105,15 @@ SampleN	0	0.1	0.2	0.4	0	0	0.3	0	0
 ```
 
 
-The training amplicon table is in the same format, and order of each sample is exactly matched with the training WGS table.  
+The training amplicon table is in the same format, and order of each sample is exactly consistent with the training WGS table.  
+
+**b. Sample lists** 
 
 ```
 meta-apo-train -L training.wgs.list -t training.16s.list -o meta-apo.model
 ```
 
-in which parameter “-L” assigns the file list of training WGS samples and “-t” assigns that of training amplicons. Orders of paired sample should be exactly matched in the input WGS and amplicon lists. In the input list, each line contains the path of one single sample’s gene profile.    
+in which parameter “-L” assigns the file list of training WGS samples and “-t” assigns that of training amplicons. Orders of paired samples should be exactly consistent in the input WGS and amplicon lists. In the input list, each line contains the path of one single sample’s gene profile.    
 The format of a gene profile list of training WGS samples: 
 ```
 Sample1	Sample2.ko.out
@@ -124,19 +126,13 @@ And the format of a single sample’s gene profile:
 ```
 #KO Count
 K00001	0.1
-K00002	0
 K00003	0.3
 K00004	0.1
 K00005	0.1
 K00010	0.1
 K00006	0.1
-K00011	0
 K00007	0.2
 ```
-
-**b. Sample lists** 
-
-In the calibration step, considering WGS results as the “golden standard”, Meta-Apo calibrates the predicted functional profiles of amplicon samples using model built in the training step.   
 
 The training amplicon list is in the same format, and order of each sample is exactly matched with the training WGS list.  
 
