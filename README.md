@@ -20,7 +20,7 @@ Meta-Apo (Metagenomic Apochromat) calibrates the predicted gene profiles from 16
 
 The Meta-Apo takes the functional gene profiles of small number (e.g. 15) of WGS-amplicon sample pairs as training, and outputs the calibrated functional profiles of large-scale (e.g. > 1,000) amplicon samples. Currently the Meta-Apo requires functional gene profiles to be annotated using KEGG Ontology.
 
-![](http://bioinfo.single-cell.cn/images/fig1.png)
+![](http://bioinfo.single-cell.cn/images/Fig.1.jpg)
 
 
 
@@ -57,7 +57,7 @@ The example dataset could be found at “examples” folder. Check the “exampl
 
 ## Manual Installation
 
-If the automatic installer fails, Dynamic Meta-Storms can still be installed manually.
+If the automatic installer fails, Meta-Apo can still be installed manually.
 
 **a. Download the package**
 ```
@@ -129,10 +129,7 @@ K07461  41.5
 K00097  100.787
 ...
 ```
-
 **b. Sample lists** 
-
-
 
 In the calibration step, considering WGS results as the “golden standard”, Meta-Apo calibrates the predicted functional profiles of amplicon samples using model built in the training step.   
 
@@ -148,13 +145,13 @@ In the calibration step, Meta-Apo calibrates the predicted functional profiles o
 
 For calibration, the Meta-Apo also accepts gene profiles of amplicon samples in two formats as well as the training step.  
 
-**a. Abundance tables**  
+**a. Abundance table**  
 
 ```
 meta-apo-calibrate -t 16s.ko.abd -m meta-apo.model -o 16s.ko.calibrated.abd
 ```
 The output file “16s.ko.calibrated.abd” is the calibrated gene abundance table.  
-**b. Sample lists**  
+**b. Sample list**  
 ```
 meta-apo-train -l 16s.ko.list -m meta-apo.model -o 16s.ko.calibrated.out
 ```
