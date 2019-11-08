@@ -1,623 +1,623 @@
-ID	Type	Site	Habitat	Gender
-SRS012849.16s.ko	16s	Stool	Gut	Male
-SRS012969.16s.ko	16s	Stool	Gut	Male
-SRS012983.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS012985.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS012989.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS012998.16s.ko	16s	Anterior_nares	Skin	Male
-SRS013155.16s.ko	16s	Anterior_nares	Skin	Male
-SRS013158.16s.ko	16s	Stool	Gut	Male
-SRS013164.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS013170.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS013215.16s.ko	16s	Stool	Gut	Male
-SRS013239.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS013269.16s.ko	16s	Anterior_nares	Skin	Male
-SRS013382.16s.ko	16s	Stool	Gut	Male
-SRS013476.16s.ko	16s	Stool	Gut	Male
-SRS013521.16s.ko	16s	Stool	Gut	Female
-SRS013533.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS013542.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS013637.16s.ko	16s	Anterior_nares	Skin	Male
-SRS013740.16s.ko	16s	Anterior_nares	Skin	Male
-SRS013800.16s.ko	16s	Stool	Gut	Male
-SRS013818.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS013836.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS013927.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS013938.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS013940.16s.ko	16s	Stool	Gut	Male
-SRS014124.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS014126.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS014313.16s.ko	16s	Stool	Gut	Female
-SRS014402.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS014404.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS014412.16s.ko	16s	Stool	Gut	Female
-SRS014415.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS014523.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS014524.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS014528.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS014530.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS014534.16s.ko	16s	Stool	Gut	Female
-SRS014573.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS014575.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS014578.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS014728.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS014744.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS014787.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS014801.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS014855.16s.ko	16s	Stool	Gut	Male
-SRS014888.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS014890.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS014894.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS014901.16s.ko	16s	Anterior_nares	Skin	Male
-SRS014979.16s.ko	16s	Stool	Gut	Female
-SRS015038.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS015040.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS015044.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS015054.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS015154.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS015158.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS015168.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS015209.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS015215.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS015217.16s.ko	16s	Stool	Gut	Female
-SRS015225.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS015264.16s.ko	16s	Stool	Gut	Male
-SRS015269.16s.ko	16s	Anterior_nares	Skin	Male
-SRS015272.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS015274.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS015278.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS015369.16s.ko	16s	Stool	Gut	Female
-SRS015374.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS015378.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS015481.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS015484.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS015486.16s.ko	16s	Stool	Gut	Female
-SRS015540.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS015579.16s.ko	16s	Stool	Gut	Female
-SRS015587.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS015590.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS015592.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS015596.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS015640.16s.ko	16s	Anterior_nares	Skin	Male
-SRS015644.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS015646.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS015650.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS015686.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS015688.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS015692.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS015694.16s.ko	16s	Stool	Gut	Female
-SRS015702.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS015745.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS015752.16s.ko	16s	Anterior_nares	Skin	Male
-SRS015755.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS015793.16s.ko	16s	Anterior_nares	Skin	Male
-SRS015794.16s.ko	16s	Stool	Gut	Male
-SRS015797.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS015799.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS015803.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS015890.16s.ko	16s	Stool	Gut	Male
-SRS015893.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS015895.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS015899.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS015937.16s.ko	16s	Anterior_nares	Skin	Male
-SRS015941.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS015985.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS015989.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS015996.16s.ko	16s	Anterior_nares	Skin	Male
-SRS016033.16s.ko	16s	Anterior_nares	Skin	Male
-SRS016037.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS016039.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS016043.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS016086.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS016092.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS016132.16s.ko	16s	Stool	Gut	Female
-SRS016133.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS016139.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS016188.16s.ko	16s	Anterior_nares	Skin	Female
-SRS016191.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS016196.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS016200.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS016292.16s.ko	16s	Anterior_nares	Skin	Male
-SRS016297.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS016342.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS016360.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS016381.16s.ko	16s	Stool	Gut	Male
-SRS016393.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS016495.16s.ko	16s	Stool	Gut	Female
-SRS016501.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS016503.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS016513.16s.ko	16s	Anterior_nares	Skin	Female
-SRS016516.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS016569.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS016575.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS016581.16s.ko	16s	Anterior_nares	Skin	Female
-SRS016584.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS016629.16s.ko	16s	Stool	Gut	Female
-SRS016647.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS016653.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS016665.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS016683.16s.ko	16s	Anterior_nares	Skin	Female
-SRS016692.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS016740.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS016742.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS016746.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS016752.16s.ko	16s	Anterior_nares	Skin	Male
-SRS016815.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS016840.16s.ko	16s	Stool	Gut	Male
-SRS016858.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS016876.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS016897.16s.ko	16s	Stool	Gut	Male
-SRS016969.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS016989.16s.ko	16s	Stool	Gut	Male
-SRS017007.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS017013.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS017025.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS017120.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS017156.16s.ko	16s	Anterior_nares	Skin	Male
-SRS017244.16s.ko	16s	Anterior_nares	Skin	Male
-SRS017247.16s.ko	16s	Stool	Gut	Male
-SRS017324.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS017326.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS017336.16s.ko	16s	Anterior_nares	Skin	Male
-SRS017375.16s.ko	16s	Stool	Gut	Male
-SRS017381.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS017383.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS017433.16s.ko	16s	Stool	Gut	Female
-SRS017439.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS017441.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS017445.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS017451.16s.ko	16s	Anterior_nares	Skin	Female
-SRS017511.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS017517.16s.ko	16s	Anterior_nares	Skin	Female
-SRS017520.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS017622.16s.ko	16s	Stool	Gut	Male
-SRS017630.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS017634.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS017640.16s.ko	16s	Anterior_nares	Skin	Male
-SRS017687.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS017697.16s.ko	16s	Anterior_nares	Skin	Female
-SRS017700.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS017745.16s.ko	16s	Stool	Gut	Male
-SRS017751.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS017753.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS017757.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS017763.16s.ko	16s	Anterior_nares	Skin	Male
-SRS017808.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS017810.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS017814.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS017820.16s.ko	16s	Anterior_nares	Skin	Male
-SRS017859.16s.ko	16s	Stool	Gut	Male
-SRS017916.16s.ko	16s	Stool	Gut	Male
-SRS018049.16s.ko	16s	Stool	Gut	Male
-SRS018055.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS018061.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS018300.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS018312.16s.ko	16s	Anterior_nares	Skin	Male
-SRS018351.16s.ko	16s	Stool	Gut	Male
-SRS018357.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS018359.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS018369.16s.ko	16s	Anterior_nares	Skin	Male
-SRS018473.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS018479.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS018488.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS018535.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS018541.16s.ko	16s	Stool	Gut	Female
-SRS018569.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS018573.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS018656.16s.ko	16s	Stool	Gut	Female
-SRS018665.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS018671.16s.ko	16s	Anterior_nares	Skin	Female
-SRS018969.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS018971.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS018975.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS018978.16s.ko	16s	R_Retroauricular_crease	Skin	Male
-SRS018984.16s.ko	16s	Stool	Gut	Male
-SRS019215.16s.ko	16s	Anterior_nares	Skin	Female
-SRS019219.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS019221.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS019225.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS019867.16s.ko	16s	Anterior_nares	Skin	Male
-SRS019872.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS019968.16s.ko	16s	Stool	Gut	Female
-SRS019974.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS019976.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS019980.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS019986.16s.ko	16s	Anterior_nares	Skin	Female
-SRS019989.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS020220.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS020222.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS020226.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS020232.16s.ko	16s	Anterior_nares	Skin	Male
-SRS020271.16s.ko	16s	Stool	Gut	Male
-SRS020277.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS020283.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS020328.16s.ko	16s	Stool	Gut	Female
-SRS020334.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS020336.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS020340.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS020349.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS020394.16s.ko	16s	Stool	Gut	Male
-SRS020400.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS020402.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS020406.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS020412.16s.ko	16s	Anterior_nares	Skin	Male
-SRS020508.16s.ko	16s	Stool	Gut	Male
-SRS020571.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS020622.16s.ko	16s	Stool	Gut	Male
-SRS020628.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS020856.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS020858.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS020862.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS020868.16s.ko	16s	Anterior_nares	Skin	Male
-SRS021153.16s.ko	16s	Stool	Gut	Female
-SRS021219.16s.ko	16s	Stool	Gut	Female
-SRS021473.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS021477.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS021483.16s.ko	16s	Anterior_nares	Skin	Male
-SRS021528.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS021897.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS021948.16s.ko	16s	Stool	Gut	Female
-SRS021954.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS021960.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS021969.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS022071.16s.ko	16s	Stool	Gut	Female
-SRS022077.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS022079.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS022083.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS022092.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS022137.16s.ko	16s	Stool	Gut	Female
-SRS022143.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS022145.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS022149.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS022158.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS022281.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS022464.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS022524.16s.ko	16s	Stool	Gut	Female
-SRS022530.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS022532.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS022536.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS022545.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS022602.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS022713.16s.ko	16s	Stool	Gut	Female
-SRS022721.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS022725.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS022734.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS022980.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS023346.16s.ko	16s	Stool	Gut	Female
-SRS023352.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS023358.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS023468.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS023526.16s.ko	16s	Stool	Gut	Male
-SRS023534.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS023538.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS023583.16s.ko	16s	Stool	Gut	Female
-SRS023591.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS023595.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS023604.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS023715.16s.ko	16s	Stool	Gut	Male
-SRS023829.16s.ko	16s	Stool	Gut	Female
-SRS023835.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS023837.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS023841.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS023847.16s.ko	16s	Anterior_nares	Skin	Female
-SRS023850.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS023958.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS023964.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS023970.16s.ko	16s	Anterior_nares	Skin	Male
-SRS024009.16s.ko	16s	Stool	Gut	Female
-SRS024015.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS024017.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS024021.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS024068.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS024075.16s.ko	16s	Stool	Gut	Male
-SRS024081.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS024087.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS024132.16s.ko	16s	Stool	Gut	Male
-SRS024138.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS024140.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS024144.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS024150.16s.ko	16s	Anterior_nares	Skin	Male
-SRS024318.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS024375.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS024377.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS024381.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS024428.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS024435.16s.ko	16s	Stool	Gut	Male
-SRS024441.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS024447.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS024492.16s.ko	16s	Stool	Gut	Male
-SRS024498.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS024500.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS024504.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS024549.16s.ko	16s	Stool	Gut	Male
-SRS024557.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS024561.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS024620.16s.ko	16s	L_Retroauricular_crease	Skin	Male
-SRS024663.16s.ko	16s	Stool	Gut	Male
-SRS042131.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS042284.16s.ko	16s	Stool	Gut	Female
-SRS042409.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS042457.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS042625.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS042691.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS042858.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS042910.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS042959.16s.ko	16s	Anterior_nares	Skin	Male
-SRS042966.16s.ko	16s	Stool	Gut	Female
-SRS042983.16s.ko	16s	Anterior_nares	Skin	Female
-SRS042984.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS043363.16s.ko	16s	Anterior_nares	Skin	Male
-SRS043610.16s.ko	16s	L_Retroauricular_crease	Skin	Female
-SRS043646.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS043663.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS043667.16s.ko	16s	Stool	Gut	Male
-SRS043676.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS043729.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS043755.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS043768.16s.ko	16s	Stool	Gut	Female
-SRS043803.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS043841.16s.ko	16s	Stool	Gut	Male
-SRS043942.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS044230.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS044448.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS044472.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS044535.16s.ko	16s	Stool	Gut	Male
-SRS044626.16s.ko	16s	Anterior_nares	Skin	Male
-SRS045004.16s.ko	16s	Stool	Gut	Male
-SRS045015.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS045049.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS045127.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS045313.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS045588.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS045605.16s.ko	16s	R_Retroauricular_crease	Skin	Female
-SRS045606.16s.ko	16s	R_Retroauricular_crease	Skin	Female
-SRS045638.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS045645.16s.ko	16s	Stool	Gut	Male
-SRS045713.16s.ko	16s	Stool	Gut	Male
-SRS045715.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS045739.16s.ko	16s	Stool	Gut	Male
-SRS045763.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS045826.16s.ko	16s	Stool	Gut	Female
-SRS045840.16s.ko	16s	Anterior_nares	Skin	Male
-SRS046034.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS046035.16s.ko	16s	Anterior_nares	Skin	Male
-SRS046049.16s.ko	16s	Anterior_nares	Skin	Male
-SRS046068.16s.ko	16s	Stool	Gut	Male
-SRS046369.16s.ko	16s	Stool	Gut	Female
-SRS046496.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS046502.16s.ko	16s	Stool	Gut	Female
-SRS046595.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS046623.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS046686.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS046688.16s.ko	16s	R_Retroauricular_crease	Skin	Male
-SRS046712.16s.ko	16s	Stool	Gut	Female
-SRS046717.16s.ko	16s	Stool	Gut	Male
-SRS047014.16s.ko	16s	Stool	Gut	Male
-SRS047044.16s.ko	16s	Stool	Gut	Male
-SRS047100.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS047134.16s.ko	16s	R_Retroauricular_crease	Skin	Female
-SRS047254.16s.ko	16s	Anterior_nares	Skin	Male
-SRS047433.16s.ko	16s	Stool	Gut	Female
-SRS047590.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS047824.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS048060.16s.ko	16s	Stool	Gut	Female
-SRS048317.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS048536.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS048620.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS048702.16s.ko	16s	Anterior_nares	Skin	Male
-SRS048791.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS048855.16s.ko	16s	Anterior_nares	Skin	Male
-SRS048893.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS048981.16s.ko	16s	Stool	Gut	Male
-SRS049147.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS049191.16s.ko	16s	Anterior_nares	Skin	Female
-SRS049237.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS049253.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS049268.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS049289.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS049318.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS049340.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS049402.16s.ko	16s	Stool	Gut	Female
-SRS049446.16s.ko	16s	Stool	Gut	Female
-SRS049448.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS049547.16s.ko	16s	L_Retroauricular_crease	Skin	Male
-SRS049773.16s.ko	16s	Stool	Gut	Female
-SRS049896.16s.ko	16s	Stool	Gut	Male
-SRS049900.16s.ko	16s	Stool	Gut	Male
-SRS049988.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS049995.16s.ko	16s	Stool	Gut	Female
-SRS050025.16s.ko	16s	Anterior_nares	Skin	Male
-SRS050026.16s.ko	16s	Stool	Gut	Female
-SRS050184.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS050225.16s.ko	16s	Anterior_nares	Skin	Female
-SRS050299.16s.ko	16s	Stool	Gut	Male
-SRS050557.16s.ko	16s	R_Retroauricular_crease	Skin	Female
-SRS050669.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS050709.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS050783.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS050799.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS050801.16s.ko	16s	Stool	Gut	Male
-SRS050905.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS050925.16s.ko	16s	Stool	Gut	Male
-SRS050941.16s.ko	16s	Stool	Gut	Male
-SRS050974.16s.ko	16s	Stool	Gut	Male
-SRS051116.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS051228.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS051378.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS051548.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS051637.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS051786.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS051791.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS051882.16s.ko	16s	Stool	Gut	Female
-SRS052027.16s.ko	16s	Stool	Gut	Male
-SRS052061.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS052078.16s.ko	16s	Stool	Gut	Male
-SRS052518.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS052570.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS052576.16s.ko	16s	Stool	Gut	Male
-SRS052590.16s.ko	16s	Anterior_nares	Skin	Female
-SRS052620.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS052668.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS052756.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS052778.16s.ko	16s	Anterior_nares	Skin	Male
-SRS052859.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS052876.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS052988.16s.ko	16s	R_Retroauricular_crease	Skin	Male
-SRS053214.16s.ko	16s	Stool	Gut	Female
-SRS053356.16s.ko	16s	Stool	Gut	Male
-SRS053398.16s.ko	16s	Stool	Gut	Female
-SRS053573.16s.ko	16s	Stool	Gut	Male
-SRS053578.16s.ko	16s	L_Retroauricular_crease	Skin	Male
-SRS053630.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS053649.16s.ko	16s	Stool	Gut	Female
-SRS053741.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS053854.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS053895.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS053917.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS054059.16s.ko	16s	Stool	Gut	Male
-SRS054079.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS054352.16s.ko	16s	Stool	Gut	Male
-SRS054430.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS054569.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS054776.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS054807.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS054905.16s.ko	16s	Stool	Gut	Female
-SRS054956.16s.ko	16s	Stool	Gut	Female
-SRS054962.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS054976.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS055017.16s.ko	16s	Stool	Gut	Male
-SRS055118.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS055177.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS055298.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS055378.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS055426.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS055495.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS055966.16s.ko	16s	Stool	Gut	Male
-SRS055982.16s.ko	16s	Stool	Gut	Female
-SRS056090.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS056113.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS056157.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS056210.16s.ko	16s	Anterior_nares	Skin	Female
-SRS056273.16s.ko	16s	Stool	Gut	Male
-SRS056327.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS056461.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS056483.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS056519.16s.ko	16s	Stool	Gut	Male
-SRS056537.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS056695.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS056699.16s.ko	16s	L_Retroauricular_crease	Skin	Male
-SRS056712.16s.ko	16s	Anterior_nares	Skin	Male
-SRS056896.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS056951.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS057022.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS057049.16s.ko	16s	Stool	Gut	Male
-SRS057083.16s.ko	16s	R_Retroauricular_crease	Skin	Male
-SRS057124.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS057244.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS057344.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS057355.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS057478.16s.ko	16s	Stool	Gut	Female
-SRS057480.16s.ko	16s	Stool	Gut	Female
-SRS057559.16s.ko	16s	L_Retroauricular_crease	Skin	Female
-SRS057619.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS057717.16s.ko	16s	Stool	Gut	Female
-SRS057931.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS058053.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS058070.16s.ko	16s	Stool	Gut	Male
-SRS058075.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS058094.16s.ko	16s	Anterior_nares	Skin	Male
-SRS058145.16s.ko	16s	Stool	Gut	Male
-SRS058213.16s.ko	16s	Anterior_nares	Skin	Female
-SRS058221.16s.ko	16s	R_Retroauricular_crease	Skin	Male
-SRS058261.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS058456.16s.ko	16s	Anterior_nares	Skin	Male
-SRS058646.16s.ko	16s	L_Retroauricular_crease	Skin	Female
-SRS058693.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS058723.16s.ko	16s	Stool	Gut	Female
-SRS058730.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS062512.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS062545.16s.ko	16s	Vaginal_introitus	Vaginal	Female
-SRS062632.16s.ko	16s	Anterior_nares	Skin	Male
-SRS062640.16s.ko	16s	Anterior_nares	Skin	Male
-SRS062668.16s.ko	16s	Throat	Oral	Female
-SRS062713.16s.ko	16s	Anterior_nares	Skin	Female
-SRS062752.16s.ko	16s	Vaginal_introitus	Vaginal	Female
-SRS062761.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS062878.16s.ko	16s	Hard_palate	Oral	Male
-SRS062906.16s.ko	16s	Vaginal_introitus	Vaginal	Female
-SRS062931.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS063035.16s.ko	16s	Anterior_nares	Skin	Male
-SRS063040.16s.ko	16s	Stool	Gut	Female
-SRS063102.16s.ko	16s	Anterior_nares	Skin	Male
-SRS063127.16s.ko	16s	Stool	Gut	Male
-SRS063178.16s.ko	16s	Anterior_nares	Skin	Male
-SRS063190.16s.ko	16s	Stool	Gut	Female
-SRS063193.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS063215.16s.ko	16s	Subgingival_plaque	Oral	Female
-SRS063246.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS063288.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS063351.16s.ko	16s	Palatine_Tonsils	Oral	Female
-SRS063370.16s.ko	16s	Stool	Gut	Male
-SRS063413.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS063418.16s.ko	16s	Anterior_nares	Skin	Male
-SRS063478.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS063485.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS063489.16s.ko	16s	Stool	Gut	Female
-SRS063518.16s.ko	16s	Stool	Gut	Female
-SRS063621.16s.ko	16s	Palatine_Tonsils	Oral	Female
-SRS063672.16s.ko	16s	Subgingival_plaque	Oral	Male
-SRS063678.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS063686.16s.ko	16s	Anterior_nares	Skin	Male
-SRS063912.16s.ko	16s	Anterior_nares	Skin	Male
-SRS063928.16s.ko	16s	Stool	Gut	Female
-SRS063929.16s.ko	16s	Throat	Oral	Male
-SRS063999.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS064014.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS064022.16s.ko	16s	Palatine_Tonsils	Oral	Male
-SRS064097.16s.ko	16s	Anterior_nares	Skin	Female
-SRS064219.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS064225.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS064232.16s.ko	16s	Stool	Gut	Female
-SRS064376.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS064382.16s.ko	16s	Vaginal_introitus	Vaginal	Female
-SRS064393.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS064423.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS064482.16s.ko	16s	Palatine_Tonsils	Oral	Female
-SRS064568.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS064645.16s.ko	16s	Stool	Gut	Male
-SRS064704.16s.ko	16s	Posterior_fornix	Vaginal	Female
-SRS064774.16s.ko	16s	Tongue_dorsum	Oral	Female
-SRS064973.16s.ko	16s	Stool	Gut	Male
-SRS064996.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS065099.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS065133.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS065176.16s.ko	16s	Stool	Gut	Female
-SRS065306.16s.ko	16s	Palatine_Tonsils	Oral	Male
-SRS065335.16s.ko	16s	Throat	Oral	Male
-SRS065397.16s.ko	16s	Stool	Gut	Female
-SRS065431.16s.ko	16s	Buccal_mucosa	Oral	Female
-SRS065518.16s.ko	16s	Saliva	Oral	Male
-SRS065542.16s.ko	16s	Supragingival_plaque	Oral	Female
-SRS065547.16s.ko	16s	Mid_vagina	Vaginal	Female
-SRS1041095.16s.ko	16s	Stool	Gut	Male
-SRS1041116.16s.ko	16s	Stool	Gut	Male
-SRS1041118.16s.ko	16s	Stool	Gut	Male
-SRS1041119.16s.ko	16s	Tongue_dorsum	Oral	Male
-SRS1041120.16s.ko	16s	Buccal_mucosa	Oral	Male
-SRS1041121.16s.ko	16s	Supragingival_plaque	Oral	Male
-SRS1041129.16s.ko	16s	Stool	Gut	Female
-SRS1041130.16s.ko	16s	Stool	Gut	Female
-SRS1041132.16s.ko	16s	Stool	Gut	Female
-SRS1041137.16s.ko	16s	Stool	Gut	Male
-SRS1041138.16s.ko	16s	Stool	Gut	Male
-SRS1041139.16s.ko	16s	Stool	Gut	Male
-SRS1041140.16s.ko	16s	Stool	Gut	Male
-SRS1041141.16s.ko	16s	Stool	Gut	Female
-SRS1041143.16s.ko	16s	Stool	Gut	Female
-SRS1041144.16s.ko	16s	Stool	Gut	Female
-SRS1041145.16s.ko	16s	Stool	Gut	Female
-SRS1041146.16s.ko	16s	Stool	Gut	Male
-SRS1041147.16s.ko	16s	Stool	Gut	Male
-SRS971275.16s.ko	16s	Stool	Gut	Female
-SRS971276.16s.ko	16s	Stool	Gut	Female
-SRS971427.16s.ko	16s	Anterior_nares	Skin	Male
+ID	Habitat	Gender
+SRS012849.16s.ko	Gut	Male
+SRS012969.16s.ko	Gut	Male
+SRS012983.16s.ko	Oral	Male
+SRS012985.16s.ko	Oral	Male
+SRS012989.16s.ko	Oral	Male
+SRS012998.16s.ko	Skin	Male
+SRS013155.16s.ko	Skin	Male
+SRS013158.16s.ko	Gut	Male
+SRS013164.16s.ko	Oral	Male
+SRS013170.16s.ko	Oral	Male
+SRS013215.16s.ko	Gut	Male
+SRS013239.16s.ko	Oral	Male
+SRS013269.16s.ko	Skin	Male
+SRS013382.16s.ko	Gut	Male
+SRS013476.16s.ko	Gut	Male
+SRS013521.16s.ko	Gut	Female
+SRS013533.16s.ko	Oral	Female
+SRS013542.16s.ko	Vaginal	Female
+SRS013637.16s.ko	Skin	Male
+SRS013740.16s.ko	Skin	Male
+SRS013800.16s.ko	Gut	Male
+SRS013818.16s.ko	Oral	Male
+SRS013836.16s.ko	Oral	Male
+SRS013927.16s.ko	Oral	Male
+SRS013938.16s.ko	Oral	Male
+SRS013940.16s.ko	Gut	Male
+SRS014124.16s.ko	Oral	Female
+SRS014126.16s.ko	Oral	Female
+SRS014313.16s.ko	Gut	Female
+SRS014402.16s.ko	Oral	Female
+SRS014404.16s.ko	Oral	Female
+SRS014412.16s.ko	Gut	Female
+SRS014415.16s.ko	Vaginal	Female
+SRS014523.16s.ko	Vaginal	Female
+SRS014524.16s.ko	Oral	Female
+SRS014528.16s.ko	Oral	Female
+SRS014530.16s.ko	Oral	Female
+SRS014534.16s.ko	Gut	Female
+SRS014573.16s.ko	Oral	Female
+SRS014575.16s.ko	Oral	Female
+SRS014578.16s.ko	Oral	Female
+SRS014728.16s.ko	Oral	Female
+SRS014744.16s.ko	Vaginal	Female
+SRS014787.16s.ko	Oral	Female
+SRS014801.16s.ko	Vaginal	Female
+SRS014855.16s.ko	Gut	Male
+SRS014888.16s.ko	Oral	Male
+SRS014890.16s.ko	Oral	Male
+SRS014894.16s.ko	Oral	Male
+SRS014901.16s.ko	Skin	Male
+SRS014979.16s.ko	Gut	Female
+SRS015038.16s.ko	Oral	Female
+SRS015040.16s.ko	Oral	Female
+SRS015044.16s.ko	Oral	Female
+SRS015054.16s.ko	Vaginal	Female
+SRS015154.16s.ko	Oral	Female
+SRS015158.16s.ko	Oral	Female
+SRS015168.16s.ko	Vaginal	Female
+SRS015209.16s.ko	Oral	Female
+SRS015215.16s.ko	Oral	Female
+SRS015217.16s.ko	Gut	Female
+SRS015225.16s.ko	Vaginal	Female
+SRS015264.16s.ko	Gut	Male
+SRS015269.16s.ko	Skin	Male
+SRS015272.16s.ko	Oral	Male
+SRS015274.16s.ko	Oral	Male
+SRS015278.16s.ko	Oral	Male
+SRS015369.16s.ko	Gut	Female
+SRS015374.16s.ko	Oral	Female
+SRS015378.16s.ko	Oral	Female
+SRS015481.16s.ko	Vaginal	Female
+SRS015484.16s.ko	Oral	Female
+SRS015486.16s.ko	Gut	Female
+SRS015540.16s.ko	Oral	Male
+SRS015579.16s.ko	Gut	Female
+SRS015587.16s.ko	Vaginal	Female
+SRS015590.16s.ko	Oral	Female
+SRS015592.16s.ko	Oral	Female
+SRS015596.16s.ko	Oral	Female
+SRS015640.16s.ko	Skin	Male
+SRS015644.16s.ko	Oral	Male
+SRS015646.16s.ko	Oral	Male
+SRS015650.16s.ko	Oral	Male
+SRS015686.16s.ko	Oral	Female
+SRS015688.16s.ko	Oral	Female
+SRS015692.16s.ko	Oral	Female
+SRS015694.16s.ko	Gut	Female
+SRS015702.16s.ko	Vaginal	Female
+SRS015745.16s.ko	Oral	Male
+SRS015752.16s.ko	Skin	Male
+SRS015755.16s.ko	Oral	Male
+SRS015793.16s.ko	Skin	Male
+SRS015794.16s.ko	Gut	Male
+SRS015797.16s.ko	Oral	Male
+SRS015799.16s.ko	Oral	Male
+SRS015803.16s.ko	Oral	Male
+SRS015890.16s.ko	Gut	Male
+SRS015893.16s.ko	Oral	Male
+SRS015895.16s.ko	Oral	Male
+SRS015899.16s.ko	Oral	Male
+SRS015937.16s.ko	Skin	Male
+SRS015941.16s.ko	Oral	Male
+SRS015985.16s.ko	Oral	Male
+SRS015989.16s.ko	Oral	Male
+SRS015996.16s.ko	Skin	Male
+SRS016033.16s.ko	Skin	Male
+SRS016037.16s.ko	Oral	Male
+SRS016039.16s.ko	Oral	Male
+SRS016043.16s.ko	Oral	Male
+SRS016086.16s.ko	Oral	Female
+SRS016092.16s.ko	Oral	Female
+SRS016132.16s.ko	Gut	Female
+SRS016133.16s.ko	Oral	Female
+SRS016139.16s.ko	Oral	Female
+SRS016188.16s.ko	Skin	Female
+SRS016191.16s.ko	Vaginal	Female
+SRS016196.16s.ko	Oral	Female
+SRS016200.16s.ko	Oral	Female
+SRS016292.16s.ko	Skin	Male
+SRS016297.16s.ko	Oral	Male
+SRS016342.16s.ko	Oral	Male
+SRS016360.16s.ko	Oral	Male
+SRS016381.16s.ko	Gut	Male
+SRS016393.16s.ko	Oral	Male
+SRS016495.16s.ko	Gut	Female
+SRS016501.16s.ko	Oral	Female
+SRS016503.16s.ko	Oral	Female
+SRS016513.16s.ko	Skin	Female
+SRS016516.16s.ko	Vaginal	Female
+SRS016569.16s.ko	Oral	Female
+SRS016575.16s.ko	Oral	Female
+SRS016581.16s.ko	Skin	Female
+SRS016584.16s.ko	Vaginal	Female
+SRS016629.16s.ko	Gut	Female
+SRS016647.16s.ko	Oral	Female
+SRS016653.16s.ko	Oral	Female
+SRS016665.16s.ko	Oral	Female
+SRS016683.16s.ko	Skin	Female
+SRS016692.16s.ko	Vaginal	Female
+SRS016740.16s.ko	Oral	Male
+SRS016742.16s.ko	Oral	Male
+SRS016746.16s.ko	Oral	Male
+SRS016752.16s.ko	Skin	Male
+SRS016815.16s.ko	Oral	Female
+SRS016840.16s.ko	Gut	Male
+SRS016858.16s.ko	Oral	Male
+SRS016876.16s.ko	Oral	Male
+SRS016897.16s.ko	Gut	Male
+SRS016969.16s.ko	Oral	Female
+SRS016989.16s.ko	Gut	Male
+SRS017007.16s.ko	Oral	Male
+SRS017013.16s.ko	Oral	Male
+SRS017025.16s.ko	Oral	Male
+SRS017120.16s.ko	Oral	Male
+SRS017156.16s.ko	Skin	Male
+SRS017244.16s.ko	Skin	Male
+SRS017247.16s.ko	Gut	Male
+SRS017324.16s.ko	Oral	Male
+SRS017326.16s.ko	Oral	Male
+SRS017336.16s.ko	Skin	Male
+SRS017375.16s.ko	Gut	Male
+SRS017381.16s.ko	Oral	Male
+SRS017383.16s.ko	Oral	Male
+SRS017433.16s.ko	Gut	Female
+SRS017439.16s.ko	Oral	Female
+SRS017441.16s.ko	Oral	Female
+SRS017445.16s.ko	Oral	Female
+SRS017451.16s.ko	Skin	Female
+SRS017511.16s.ko	Oral	Female
+SRS017517.16s.ko	Skin	Female
+SRS017520.16s.ko	Vaginal	Female
+SRS017622.16s.ko	Gut	Male
+SRS017630.16s.ko	Oral	Male
+SRS017634.16s.ko	Oral	Male
+SRS017640.16s.ko	Skin	Male
+SRS017687.16s.ko	Oral	Female
+SRS017697.16s.ko	Skin	Female
+SRS017700.16s.ko	Vaginal	Female
+SRS017745.16s.ko	Gut	Male
+SRS017751.16s.ko	Oral	Male
+SRS017753.16s.ko	Oral	Male
+SRS017757.16s.ko	Oral	Male
+SRS017763.16s.ko	Skin	Male
+SRS017808.16s.ko	Oral	Male
+SRS017810.16s.ko	Oral	Male
+SRS017814.16s.ko	Oral	Male
+SRS017820.16s.ko	Skin	Male
+SRS017859.16s.ko	Gut	Male
+SRS017916.16s.ko	Gut	Male
+SRS018049.16s.ko	Gut	Male
+SRS018055.16s.ko	Oral	Male
+SRS018061.16s.ko	Oral	Male
+SRS018300.16s.ko	Oral	Male
+SRS018312.16s.ko	Skin	Male
+SRS018351.16s.ko	Gut	Male
+SRS018357.16s.ko	Oral	Male
+SRS018359.16s.ko	Oral	Male
+SRS018369.16s.ko	Skin	Male
+SRS018473.16s.ko	Oral	Female
+SRS018479.16s.ko	Oral	Female
+SRS018488.16s.ko	Vaginal	Female
+SRS018535.16s.ko	Vaginal	Female
+SRS018541.16s.ko	Gut	Female
+SRS018569.16s.ko	Oral	Male
+SRS018573.16s.ko	Oral	Male
+SRS018656.16s.ko	Gut	Female
+SRS018665.16s.ko	Oral	Female
+SRS018671.16s.ko	Skin	Female
+SRS018969.16s.ko	Oral	Male
+SRS018971.16s.ko	Oral	Male
+SRS018975.16s.ko	Oral	Male
+SRS018978.16s.ko	Skin	Male
+SRS018984.16s.ko	Gut	Male
+SRS019215.16s.ko	Skin	Female
+SRS019219.16s.ko	Oral	Female
+SRS019221.16s.ko	Oral	Female
+SRS019225.16s.ko	Oral	Female
+SRS019867.16s.ko	Skin	Male
+SRS019872.16s.ko	Oral	Male
+SRS019968.16s.ko	Gut	Female
+SRS019974.16s.ko	Oral	Female
+SRS019976.16s.ko	Oral	Female
+SRS019980.16s.ko	Oral	Female
+SRS019986.16s.ko	Skin	Female
+SRS019989.16s.ko	Vaginal	Female
+SRS020220.16s.ko	Oral	Male
+SRS020222.16s.ko	Oral	Male
+SRS020226.16s.ko	Oral	Male
+SRS020232.16s.ko	Skin	Male
+SRS020271.16s.ko	Gut	Male
+SRS020277.16s.ko	Oral	Male
+SRS020283.16s.ko	Oral	Male
+SRS020328.16s.ko	Gut	Female
+SRS020334.16s.ko	Oral	Female
+SRS020336.16s.ko	Oral	Female
+SRS020340.16s.ko	Oral	Female
+SRS020349.16s.ko	Vaginal	Female
+SRS020394.16s.ko	Gut	Male
+SRS020400.16s.ko	Oral	Male
+SRS020402.16s.ko	Oral	Male
+SRS020406.16s.ko	Oral	Male
+SRS020412.16s.ko	Skin	Male
+SRS020508.16s.ko	Gut	Male
+SRS020571.16s.ko	Oral	Male
+SRS020622.16s.ko	Gut	Male
+SRS020628.16s.ko	Oral	Male
+SRS020856.16s.ko	Oral	Male
+SRS020858.16s.ko	Oral	Male
+SRS020862.16s.ko	Oral	Male
+SRS020868.16s.ko	Skin	Male
+SRS021153.16s.ko	Gut	Female
+SRS021219.16s.ko	Gut	Female
+SRS021473.16s.ko	Oral	Male
+SRS021477.16s.ko	Oral	Male
+SRS021483.16s.ko	Skin	Male
+SRS021528.16s.ko	Oral	Male
+SRS021897.16s.ko	Oral	Male
+SRS021948.16s.ko	Gut	Female
+SRS021954.16s.ko	Oral	Female
+SRS021960.16s.ko	Oral	Female
+SRS021969.16s.ko	Vaginal	Female
+SRS022071.16s.ko	Gut	Female
+SRS022077.16s.ko	Oral	Female
+SRS022079.16s.ko	Oral	Female
+SRS022083.16s.ko	Oral	Female
+SRS022092.16s.ko	Vaginal	Female
+SRS022137.16s.ko	Gut	Female
+SRS022143.16s.ko	Oral	Female
+SRS022145.16s.ko	Oral	Female
+SRS022149.16s.ko	Oral	Female
+SRS022158.16s.ko	Vaginal	Female
+SRS022281.16s.ko	Oral	Female
+SRS022464.16s.ko	Oral	Female
+SRS022524.16s.ko	Gut	Female
+SRS022530.16s.ko	Oral	Female
+SRS022532.16s.ko	Oral	Female
+SRS022536.16s.ko	Oral	Female
+SRS022545.16s.ko	Vaginal	Female
+SRS022602.16s.ko	Oral	Male
+SRS022713.16s.ko	Gut	Female
+SRS022721.16s.ko	Oral	Female
+SRS022725.16s.ko	Oral	Female
+SRS022734.16s.ko	Vaginal	Female
+SRS022980.16s.ko	Oral	Female
+SRS023346.16s.ko	Gut	Female
+SRS023352.16s.ko	Oral	Female
+SRS023358.16s.ko	Oral	Female
+SRS023468.16s.ko	Vaginal	Female
+SRS023526.16s.ko	Gut	Male
+SRS023534.16s.ko	Oral	Male
+SRS023538.16s.ko	Oral	Male
+SRS023583.16s.ko	Gut	Female
+SRS023591.16s.ko	Oral	Female
+SRS023595.16s.ko	Oral	Female
+SRS023604.16s.ko	Vaginal	Female
+SRS023715.16s.ko	Gut	Male
+SRS023829.16s.ko	Gut	Female
+SRS023835.16s.ko	Oral	Female
+SRS023837.16s.ko	Oral	Female
+SRS023841.16s.ko	Oral	Female
+SRS023847.16s.ko	Skin	Female
+SRS023850.16s.ko	Vaginal	Female
+SRS023958.16s.ko	Oral	Male
+SRS023964.16s.ko	Oral	Male
+SRS023970.16s.ko	Skin	Male
+SRS024009.16s.ko	Gut	Female
+SRS024015.16s.ko	Oral	Female
+SRS024017.16s.ko	Oral	Female
+SRS024021.16s.ko	Oral	Female
+SRS024068.16s.ko	Vaginal	Female
+SRS024075.16s.ko	Gut	Male
+SRS024081.16s.ko	Oral	Male
+SRS024087.16s.ko	Oral	Male
+SRS024132.16s.ko	Gut	Male
+SRS024138.16s.ko	Oral	Male
+SRS024140.16s.ko	Oral	Male
+SRS024144.16s.ko	Oral	Male
+SRS024150.16s.ko	Skin	Male
+SRS024318.16s.ko	Oral	Male
+SRS024375.16s.ko	Oral	Female
+SRS024377.16s.ko	Oral	Female
+SRS024381.16s.ko	Oral	Female
+SRS024428.16s.ko	Vaginal	Female
+SRS024435.16s.ko	Gut	Male
+SRS024441.16s.ko	Oral	Male
+SRS024447.16s.ko	Oral	Male
+SRS024492.16s.ko	Gut	Male
+SRS024498.16s.ko	Oral	Male
+SRS024500.16s.ko	Oral	Male
+SRS024504.16s.ko	Oral	Male
+SRS024549.16s.ko	Gut	Male
+SRS024557.16s.ko	Oral	Male
+SRS024561.16s.ko	Oral	Male
+SRS024620.16s.ko	Skin	Male
+SRS024663.16s.ko	Gut	Male
+SRS042131.16s.ko	Oral	Male
+SRS042284.16s.ko	Gut	Female
+SRS042409.16s.ko	Oral	Female
+SRS042457.16s.ko	Oral	Male
+SRS042625.16s.ko	Vaginal	Female
+SRS042691.16s.ko	Oral	Male
+SRS042858.16s.ko	Vaginal	Female
+SRS042910.16s.ko	Oral	Female
+SRS042959.16s.ko	Skin	Male
+SRS042966.16s.ko	Gut	Female
+SRS042983.16s.ko	Skin	Female
+SRS042984.16s.ko	Oral	Female
+SRS043363.16s.ko	Skin	Male
+SRS043610.16s.ko	Skin	Female
+SRS043646.16s.ko	Oral	Male
+SRS043663.16s.ko	Oral	Male
+SRS043667.16s.ko	Gut	Male
+SRS043676.16s.ko	Oral	Female
+SRS043729.16s.ko	Oral	Male
+SRS043755.16s.ko	Oral	Male
+SRS043768.16s.ko	Gut	Female
+SRS043803.16s.ko	Oral	Male
+SRS043841.16s.ko	Gut	Male
+SRS043942.16s.ko	Oral	Male
+SRS044230.16s.ko	Oral	Male
+SRS044448.16s.ko	Oral	Female
+SRS044472.16s.ko	Oral	Male
+SRS044535.16s.ko	Gut	Male
+SRS044626.16s.ko	Skin	Male
+SRS045004.16s.ko	Gut	Male
+SRS045015.16s.ko	Oral	Female
+SRS045049.16s.ko	Oral	Male
+SRS045127.16s.ko	Oral	Male
+SRS045313.16s.ko	Oral	Male
+SRS045588.16s.ko	Oral	Male
+SRS045605.16s.ko	Skin	Female
+SRS045606.16s.ko	Skin	Female
+SRS045638.16s.ko	Oral	Male
+SRS045645.16s.ko	Gut	Male
+SRS045713.16s.ko	Gut	Male
+SRS045715.16s.ko	Oral	Female
+SRS045739.16s.ko	Gut	Male
+SRS045763.16s.ko	Oral	Female
+SRS045826.16s.ko	Gut	Female
+SRS045840.16s.ko	Skin	Male
+SRS046034.16s.ko	Vaginal	Female
+SRS046035.16s.ko	Skin	Male
+SRS046049.16s.ko	Skin	Male
+SRS046068.16s.ko	Gut	Male
+SRS046369.16s.ko	Gut	Female
+SRS046496.16s.ko	Oral	Female
+SRS046502.16s.ko	Gut	Female
+SRS046595.16s.ko	Oral	Male
+SRS046623.16s.ko	Oral	Male
+SRS046686.16s.ko	Oral	Male
+SRS046688.16s.ko	Skin	Male
+SRS046712.16s.ko	Gut	Female
+SRS046717.16s.ko	Gut	Male
+SRS047014.16s.ko	Gut	Male
+SRS047044.16s.ko	Gut	Male
+SRS047100.16s.ko	Oral	Female
+SRS047134.16s.ko	Skin	Female
+SRS047254.16s.ko	Skin	Male
+SRS047433.16s.ko	Gut	Female
+SRS047590.16s.ko	Oral	Male
+SRS047824.16s.ko	Oral	Female
+SRS048060.16s.ko	Gut	Female
+SRS048317.16s.ko	Oral	Female
+SRS048536.16s.ko	Vaginal	Female
+SRS048620.16s.ko	Oral	Female
+SRS048702.16s.ko	Skin	Male
+SRS048791.16s.ko	Oral	Female
+SRS048855.16s.ko	Skin	Male
+SRS048893.16s.ko	Oral	Female
+SRS048981.16s.ko	Gut	Male
+SRS049147.16s.ko	Oral	Female
+SRS049191.16s.ko	Skin	Female
+SRS049237.16s.ko	Vaginal	Female
+SRS049253.16s.ko	Oral	Male
+SRS049268.16s.ko	Oral	Male
+SRS049289.16s.ko	Oral	Male
+SRS049318.16s.ko	Oral	Female
+SRS049340.16s.ko	Vaginal	Female
+SRS049402.16s.ko	Gut	Female
+SRS049446.16s.ko	Gut	Female
+SRS049448.16s.ko	Oral	Male
+SRS049547.16s.ko	Skin	Male
+SRS049773.16s.ko	Gut	Female
+SRS049896.16s.ko	Gut	Male
+SRS049900.16s.ko	Gut	Male
+SRS049988.16s.ko	Oral	Male
+SRS049995.16s.ko	Gut	Female
+SRS050025.16s.ko	Skin	Male
+SRS050026.16s.ko	Gut	Female
+SRS050184.16s.ko	Vaginal	Female
+SRS050225.16s.ko	Skin	Female
+SRS050299.16s.ko	Gut	Male
+SRS050557.16s.ko	Skin	Female
+SRS050669.16s.ko	Oral	Male
+SRS050709.16s.ko	Oral	Male
+SRS050783.16s.ko	Oral	Female
+SRS050799.16s.ko	Oral	Female
+SRS050801.16s.ko	Gut	Male
+SRS050905.16s.ko	Oral	Female
+SRS050925.16s.ko	Gut	Male
+SRS050941.16s.ko	Gut	Male
+SRS050974.16s.ko	Gut	Male
+SRS051116.16s.ko	Oral	Female
+SRS051228.16s.ko	Oral	Female
+SRS051378.16s.ko	Oral	Female
+SRS051548.16s.ko	Vaginal	Female
+SRS051637.16s.ko	Vaginal	Female
+SRS051786.16s.ko	Oral	Female
+SRS051791.16s.ko	Oral	Male
+SRS051882.16s.ko	Gut	Female
+SRS052027.16s.ko	Gut	Male
+SRS052061.16s.ko	Oral	Male
+SRS052078.16s.ko	Gut	Male
+SRS052518.16s.ko	Oral	Male
+SRS052570.16s.ko	Oral	Female
+SRS052576.16s.ko	Gut	Male
+SRS052590.16s.ko	Skin	Female
+SRS052620.16s.ko	Vaginal	Female
+SRS052668.16s.ko	Oral	Female
+SRS052756.16s.ko	Vaginal	Female
+SRS052778.16s.ko	Skin	Male
+SRS052859.16s.ko	Vaginal	Female
+SRS052876.16s.ko	Oral	Female
+SRS052988.16s.ko	Skin	Male
+SRS053214.16s.ko	Gut	Female
+SRS053356.16s.ko	Gut	Male
+SRS053398.16s.ko	Gut	Female
+SRS053573.16s.ko	Gut	Male
+SRS053578.16s.ko	Skin	Male
+SRS053630.16s.ko	Oral	Female
+SRS053649.16s.ko	Gut	Female
+SRS053741.16s.ko	Vaginal	Female
+SRS053854.16s.ko	Oral	Female
+SRS053895.16s.ko	Oral	Male
+SRS053917.16s.ko	Oral	Female
+SRS054059.16s.ko	Gut	Male
+SRS054079.16s.ko	Oral	Male
+SRS054352.16s.ko	Gut	Male
+SRS054430.16s.ko	Oral	Male
+SRS054569.16s.ko	Oral	Male
+SRS054776.16s.ko	Oral	Male
+SRS054807.16s.ko	Oral	Male
+SRS054905.16s.ko	Gut	Female
+SRS054956.16s.ko	Gut	Female
+SRS054962.16s.ko	Vaginal	Female
+SRS054976.16s.ko	Oral	Female
+SRS055017.16s.ko	Gut	Male
+SRS055118.16s.ko	Oral	Female
+SRS055177.16s.ko	Oral	Male
+SRS055298.16s.ko	Vaginal	Female
+SRS055378.16s.ko	Oral	Male
+SRS055426.16s.ko	Oral	Male
+SRS055495.16s.ko	Oral	Male
+SRS055966.16s.ko	Gut	Male
+SRS055982.16s.ko	Gut	Female
+SRS056090.16s.ko	Oral	Female
+SRS056113.16s.ko	Oral	Male
+SRS056157.16s.ko	Oral	Female
+SRS056210.16s.ko	Skin	Female
+SRS056273.16s.ko	Gut	Male
+SRS056327.16s.ko	Oral	Female
+SRS056461.16s.ko	Oral	Male
+SRS056483.16s.ko	Vaginal	Female
+SRS056519.16s.ko	Gut	Male
+SRS056537.16s.ko	Oral	Female
+SRS056695.16s.ko	Vaginal	Female
+SRS056699.16s.ko	Skin	Male
+SRS056712.16s.ko	Skin	Male
+SRS056896.16s.ko	Oral	Male
+SRS056951.16s.ko	Oral	Female
+SRS057022.16s.ko	Oral	Female
+SRS057049.16s.ko	Gut	Male
+SRS057083.16s.ko	Skin	Male
+SRS057124.16s.ko	Oral	Female
+SRS057244.16s.ko	Oral	Male
+SRS057344.16s.ko	Vaginal	Female
+SRS057355.16s.ko	Oral	Male
+SRS057478.16s.ko	Gut	Female
+SRS057480.16s.ko	Gut	Female
+SRS057559.16s.ko	Skin	Female
+SRS057619.16s.ko	Oral	Male
+SRS057717.16s.ko	Gut	Female
+SRS057931.16s.ko	Oral	Female
+SRS058053.16s.ko	Oral	Male
+SRS058070.16s.ko	Gut	Male
+SRS058075.16s.ko	Oral	Male
+SRS058094.16s.ko	Skin	Male
+SRS058145.16s.ko	Gut	Male
+SRS058213.16s.ko	Skin	Female
+SRS058221.16s.ko	Skin	Male
+SRS058261.16s.ko	Oral	Male
+SRS058456.16s.ko	Skin	Male
+SRS058646.16s.ko	Skin	Female
+SRS058693.16s.ko	Oral	Female
+SRS058723.16s.ko	Gut	Female
+SRS058730.16s.ko	Oral	Male
+SRS062512.16s.ko	Vaginal	Female
+SRS062545.16s.ko	Vaginal	Female
+SRS062632.16s.ko	Skin	Male
+SRS062640.16s.ko	Skin	Male
+SRS062668.16s.ko	Oral	Female
+SRS062713.16s.ko	Skin	Female
+SRS062752.16s.ko	Vaginal	Female
+SRS062761.16s.ko	Oral	Male
+SRS062878.16s.ko	Oral	Male
+SRS062906.16s.ko	Vaginal	Female
+SRS062931.16s.ko	Oral	Male
+SRS063035.16s.ko	Skin	Male
+SRS063040.16s.ko	Gut	Female
+SRS063102.16s.ko	Skin	Male
+SRS063127.16s.ko	Gut	Male
+SRS063178.16s.ko	Skin	Male
+SRS063190.16s.ko	Gut	Female
+SRS063193.16s.ko	Oral	Female
+SRS063215.16s.ko	Oral	Female
+SRS063246.16s.ko	Oral	Male
+SRS063288.16s.ko	Oral	Female
+SRS063351.16s.ko	Oral	Female
+SRS063370.16s.ko	Gut	Male
+SRS063413.16s.ko	Oral	Male
+SRS063418.16s.ko	Skin	Male
+SRS063478.16s.ko	Oral	Female
+SRS063485.16s.ko	Oral	Female
+SRS063489.16s.ko	Gut	Female
+SRS063518.16s.ko	Gut	Female
+SRS063621.16s.ko	Oral	Female
+SRS063672.16s.ko	Oral	Male
+SRS063678.16s.ko	Oral	Male
+SRS063686.16s.ko	Skin	Male
+SRS063912.16s.ko	Skin	Male
+SRS063928.16s.ko	Gut	Female
+SRS063929.16s.ko	Oral	Male
+SRS063999.16s.ko	Oral	Female
+SRS064014.16s.ko	Oral	Male
+SRS064022.16s.ko	Oral	Male
+SRS064097.16s.ko	Skin	Female
+SRS064219.16s.ko	Oral	Male
+SRS064225.16s.ko	Vaginal	Female
+SRS064232.16s.ko	Gut	Female
+SRS064376.16s.ko	Vaginal	Female
+SRS064382.16s.ko	Vaginal	Female
+SRS064393.16s.ko	Oral	Male
+SRS064423.16s.ko	Oral	Female
+SRS064482.16s.ko	Oral	Female
+SRS064568.16s.ko	Vaginal	Female
+SRS064645.16s.ko	Gut	Male
+SRS064704.16s.ko	Vaginal	Female
+SRS064774.16s.ko	Oral	Female
+SRS064973.16s.ko	Gut	Male
+SRS064996.16s.ko	Oral	Female
+SRS065099.16s.ko	Oral	Female
+SRS065133.16s.ko	Oral	Male
+SRS065176.16s.ko	Gut	Female
+SRS065306.16s.ko	Oral	Male
+SRS065335.16s.ko	Oral	Male
+SRS065397.16s.ko	Gut	Female
+SRS065431.16s.ko	Oral	Female
+SRS065518.16s.ko	Oral	Male
+SRS065542.16s.ko	Oral	Female
+SRS065547.16s.ko	Vaginal	Female
+SRS1041095.16s.ko	Gut	Male
+SRS1041116.16s.ko	Gut	Male
+SRS1041118.16s.ko	Gut	Male
+SRS1041119.16s.ko	Oral	Male
+SRS1041120.16s.ko	Oral	Male
+SRS1041121.16s.ko	Oral	Male
+SRS1041129.16s.ko	Gut	Female
+SRS1041130.16s.ko	Gut	Female
+SRS1041132.16s.ko	Gut	Female
+SRS1041137.16s.ko	Gut	Male
+SRS1041138.16s.ko	Gut	Male
+SRS1041139.16s.ko	Gut	Male
+SRS1041140.16s.ko	Gut	Male
+SRS1041141.16s.ko	Gut	Female
+SRS1041143.16s.ko	Gut	Female
+SRS1041144.16s.ko	Gut	Female
+SRS1041145.16s.ko	Gut	Female
+SRS1041146.16s.ko	Gut	Male
+SRS1041147.16s.ko	Gut	Male
+SRS971275.16s.ko	Gut	Female
+SRS971276.16s.ko	Gut	Female
+SRS971427.16s.ko	Skin	Male
