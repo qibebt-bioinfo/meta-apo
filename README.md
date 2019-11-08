@@ -74,50 +74,91 @@ cd meta-apo
 make
 ```
 # Usage
-Meta-Apo consists of two steps: training and calibration.  
+The Meta-Apo consists of two steps: a. training and b. calibration. Currently the Meta-Apo requires all functional gene profiles to be annotated using KEGG Ontology. 
 
 
-In the training step, Meta-Apo builds a model by a small number of amplicon-WGS pairs using machine learning.  
+**I. Training for KO abundance calibration**
+In the training step, Meta-Apo builds a model by a small number (e.g 15) of paired amplicon-WGS samples using machine learning. Each sample should be sequenced by both shotgun WGS and amplicon (e.g. 16S rRNA), then the parse their functional profiles. For WGS, we recommend to use HuMANn 2 [ref], and for amplicons we recommend to use PICRUSt 2 [ref].
 
-**a. Training for KO abundance calibration**
+For training, the Meta-Apo accepts gene profiles of training paired samples in two formats:
+
 ```
-meta-apo-train -t wgs.training.KO.abd -T 16s.training.KO.abd -o meta-apo-model.txt
+meta-apo-train -T training.wgs.ko.abd -t training.16s.ko.abd -o model.out
 ```
-The parameter 't' requires the abundance table of WGS microbiomes in the WGS-amplicon pairs and the parameter 'T' requires the abundance table of corresponding amplicon microbiomes.  
-The output file “meta-apo-model.txt” is the mapping model.   
+in which parameter “-T” assigns the gene relative abundance table of training WGS samples and “-t” assigns that of training amplicons. Orders of paired sample should be exactly matched in the input WGS and amplicon tables.
 
 
-In the calibration step, considering WGS results as the “golden standard”, Meta-Apo calibrates the predicted functional profiles of amplicon samples using model built in the training step.  
+The format of a gene profile table of training WGS samples:
 
-**b. Calibration for KO abundance**
+The training amplicon table is in the same format, and order of each sample is exactly matched with the training WGS table.
+
 ```
-meta-apo-calibrate -t 16s.testing.KO.abd -m meta-apo-model.txt -o 16s-calibrated.abd
+meta-apo-train -L training.wgs.list -t training.16s.list -o meta-apo.model
 ```
-The parameter 't' requires the abundance table of amplicon microbiomes to be calibrated.  
-The output file “16s-calibrated.abd” is the calibrated abundance table.  
 
-The source files for example of customized reference is available as [Supplementary](#supplementary).  
+in which parameter “-L” assigns the file list of training WGS samples and “-t” assigns that of training amplicons. Orders of paired sample should be exactly matched in the input WGS and amplicon lists. In the input list, each line contains the path of one single sample’s gene profile.  
+The format of a gene profile list of training WGS samples:
+
+
+And the format of a single sample’s gene profile
+
+b. Sample lists
+
+
+
+In the calibration step, considering WGS results as the “golden standard”, Meta-Apo calibrates the predicted functional profiles of amplicon samples using model built in the training step. 
+
+The training amplicon list is in the same format, and order of each sample is exactly matched with the training WGS list.
+
+
+Then the output file “meta-apo.model” is the generated training model for calibration in the next step.
+
+
+**II. Calibration for KO abundance**
+In the calibration step, Meta-Apo calibrates the predicted functional profiles of more amplicon samples using the model built in the training step. The predicted gene profiles of amplicons for calibration should be processed in the same way as the training amplicon samples (e.g. by PICRUSt 2).
+
+For calibration, the Meta-Apo also accepts gene profiles of amplicon samples in two formats as well as the training step.
+
+a. Abundance tables
+
+```
+meta-apo-calibrate -t 16s.ko.abd -m meta-apo.model -o 16s.ko.calibrated.abd
+```
+The output file “16s.ko.calibrated.abd” is the calibrated gene abundance table.
+b. Sample lists
+```
+meta-apo-train -l 16s.ko.list -m meta-apo.model -o 16s.ko.calibrated.out
+```
+The output folder “16s.ko.calibrated.out” contains the calibrated gene profiles of each single input sample, and the file list of calibrated samples is also output to “16s.ko.calibrated.out.list”.
+
 # Example dataset
-Here we provide a demo dataset in "examples" folder. In this package, "16s.training.KO.abd" is the relative abundance table of amplicon microbiomes for training, "wgs.training.KO.abd" is the relative abundance table of corresponding WGS microbiomes. "16s.testing.KO.abd" is the relative abundance table of amplicon microbiomes for calibration.
+Here we provide a demo dataset in "examples" folder. This dataset contains 15 WGS-amplicon training pairs, and 622 amplicon samples for calibration. All samples were produced by Human Microbiome Project stage I. Gene profiles of WGS samples were directly analyzed by HuMANn 2. Amplicon samples were sequenced by V3-V5 region 16S rRNA sequencing, and gene profiles were inferred by PICRUSt 2. 
 
-To run the demo, you can either:
+In this dataset, " training.wgs.ko.abd" is the gene relative abundance table of 15 training WGS samples, and "training.16s.ko.abd" is that of 15 matched training amplicon samples. The gene profiles of samples for calibration is in “16s.ko.abd”, and their meta-data is in “meta.txt”.
+
+
+To run the demo, you can either run the script “Readme”:
+
 ```
 cd example
 sh Readme
 ```
 or type the following command:
 ```
-meta-apo-train -t wgs.training.KO.abd -T 16s.training.KO.abd -o meta-apo-model.txt
-meta-apo-calibrate -t 16s.testing.ko.abd -m meta-apo-model.txt -o 16s-calibrated.abd
-```
-Then the output file “16s-model.txt” is the mapping model, and "16s-calibrated.abd" is the calibrated relative abundance of the amplicon microbiomes.
+meta-apo-train -T training.wgs.ko.abd -t training.16s.ko.abd -o meta-apo.model
 
-This demo run should take less than 1 minute on a recommended computer.
+meta-apo-calibrate -t 16s.ko.abd -m meta-apo.model -o 16s.ko.calibrated.abd
+
+```
+Then the output file "16s.ko.calibrated.abd " is the calibrated relative abundance of the amplicon microbiomes.
+
+This demo run should take less than 2 minutes on a recommended computer.
+
 
 
 # Supplementary
-
-[Dataset 1](***) contains 622 sample pairs of WGS and V3-V5 region 16S rRNA amplicon samples.  
-[Dataset 2](***) contains 295 sample pairs of WGS and V1-V3 region 16S rRNA amplicon samples.  
-[Dataset 3](***) contains 2,354 WGS samples and 5,350 V3-V5 16S rRNA amplicon samples.  
-[Dataset 4](***) contains 2,045 WGS samples and 2,186 V1-V3 16S rRNA amplicon samples.  
+We also provide more datasets for test run, which is used in the manuscript “Meta-Apo improves accuracy of 16S-amplicon-based prediction of microbiome function”. All samples were produced by Human Microbiome Project stage I. Gene profiles of WGS samples were directly analyzed by HuMANn 2. and gene profiles of amplicons were inferred by PICRUSt 2.
+[Dataset 1](***) contains 622 paired samples of WGS and V3-V5 region 16S rRNA amplicon samples (also integrated in the source code package as example dataset for demo run).
+[Dataset 2](***) contains 295 paired samples of WGS and V1-V3 region 16S rRNA amplicon samples. 
+[Dataset 3](***) contains unpaired 2,354 WGS samples and 5,350 V3-V5 16S rRNA amplicon samples.
+[Dataset 4](***) contains unpaired 2,045 WGS samples and 2,186 V1-V3 16S rRNA amplicon samples.
