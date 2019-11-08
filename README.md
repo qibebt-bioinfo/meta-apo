@@ -101,7 +101,7 @@ Sample2	0.3	0.1	0.1	0	0.1	0.2	0	0.1	0.1
 Sample3	0	0.2	0.1	0.3	0	0	0.4	0	0
 
 ...
-SampleN	0	0.2	0.1	0.3	0	0	0.4	0	0
+SampleN	0	0.1	0.2	0.4	0	0	0.3	0	0
 ```
 
 
@@ -114,11 +114,11 @@ meta-apo-train -L training.wgs.list -t training.16s.list -o meta-apo.model
 in which parameter “-L” assigns the file list of training WGS samples and “-t” assigns that of training amplicons. Orders of paired sample should be exactly matched in the input WGS and amplicon lists. In the input list, each line contains the path of one single sample’s gene profile.    
 The format of a gene profile list of training WGS samples: 
 ```
-Sample_1	Sample_2.ko.out
-Sample_2	Sample_2.ko.out
-Sample_3	Sample_3.ko.out
+Sample1	Sample2.ko.out
+Sample2	Sample2.ko.out
+Sample3	Sample3.ko.out
 ...
-Sample_N	Sample_N.ko.out
+SampleN	SampleN.ko.out
 ```
 And the format of a single sample’s gene profile:
 ```
