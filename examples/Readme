@@ -3,7 +3,7 @@
 #File description
 #training.wgs.ko.abd: the gene relative abundance table of 15 training WGS samples.
 #training.16s.ko.abd: the gene relative abundance table of 15 matched training amplicon samples.
-#16s.KO.abd: the gene profiles of samples for calibration.
+#16s.ko.abd: the gene profiles of samples for calibration.
 #meta.txt: the meta-data of samples for calibration.
 #To run the demo, you can either
 #
