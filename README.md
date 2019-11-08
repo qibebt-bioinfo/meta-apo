@@ -68,7 +68,7 @@ git clone https://github.com/qibebt-bioinfo/meta-apo.git
 **b. Configure the environment variables (the default environment variable configuration file is “~/.bashrc”)**
 ```
 export MetaApo=Path to MetaApo
-export PATH=”$PATH:$MetaApo/bin/”
+export PATH="$PATH:$MetaApo/bin/"
 source ~/.bashrc
 ```
 **c. Compile the source code**
