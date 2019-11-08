@@ -189,10 +189,10 @@ This demo run should take less than 2 minutes on a recommended computer.
 # Supplementary
 We also provide more datasets for test run, which is used in the manuscript “Meta-Apo improves accuracy of 16S-amplicon-based prediction of microbiome function”. All samples were produced by Human Microbiome Project stage I. Gene profiles of WGS samples were directly analyzed by HuMANn 2. and gene profiles of amplicons were inferred by PICRUSt 2. 
 
-[Dataset 1](http://bioinfo.single-cell.cn/Released_Software/meta-apo/dataset1.tar.gz) (~97 MB) contains 622 paired samples of WGS and V3-V5 region 16S rRNA amplicon samples (also integrated in the source code package as example dataset for demo run).  
-[Dataset 2] (http://bioinfo.single-cell.cn/Released_Software/meta-apo/dataset2.tar.gz) (~42 MB) contains 295 paired samples of WGS and V1-V3 region 16S rRNA amplicon samples.   
+[Dataset 1](http://bioinfo.single-cell.cn/Released_Software/meta-apo/dataset1.tar.gz) (~96 MB) contains 622 paired samples of WGS and V3-V5 region 16S rRNA amplicon samples (also integrated in the source code package as example dataset for demo run).  
+[Dataset 2](http://bioinfo.single-cell.cn/Released_Software/meta-apo/dataset2.tar.gz) (~42 MB) contains 295 paired samples of WGS and V1-V3 region 16S rRNA amplicon samples.   
 [Dataset 3](http://bioinfo.single-cell.cn/Released_Software/meta-apo/dataset3.tar.gz) (~827 MB) contains unpaired 2,354 WGS samples and 5,350 V3-V5 16S rRNA amplicon samples.  
-[Dataset 4](http://bioinfo.single-cell.cn/Released_Software/meta-apo/dataset4.tar.gz) (~ MB)contains unpaired 2,045 WGS samples and 2,186 V1-V3 16S rRNA amplicon samples.
+[Dataset 4](http://bioinfo.single-cell.cn/Released_Software/meta-apo/dataset4.tar.gz) (~325 MB)contains unpaired 2,045 WGS samples and 2,186 V1-V3 16S rRNA amplicon samples.
 
 # Reference
 1. Abubucker, S., et al., _Metabolic Reconstruction for Metagenomic Data and Its Application to the Human Microbiome_. 2012.
