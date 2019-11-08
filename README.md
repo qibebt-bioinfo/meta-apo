@@ -91,7 +91,7 @@ In the calibration step, considering WGS results as the “golden standard”, M
 ```
 meta-apo-calibrate -t 16s.test.KO.abd -m meta-apo-model.txt -o 16s-calibrated.abd
 ```
-The parameter 't' requires the abundance table of amplicon pairs to be calibrated.  
+The parameter 't' requires the abundance table of amplicon microbiomes to be calibrated.  
 The output file “16s-calibrated.abd” is the calibrated abundance table.  
 
 The source files for example of customized reference is available as [Supplementary](#supplementary).  
