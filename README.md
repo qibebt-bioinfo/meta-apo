@@ -95,11 +95,12 @@ in which parameter “-T” assigns the gene relative abundance table of trainin
 
 The format of a gene profile table of training WGS samples:  
 ```
-Sample	K00001	K00002	K00003	K00004	K00005	K00010	K00006	K00011	K00007	K00012	K00008	K00013	K00009
-Sample_1	4.72E-06	0	0.000248375	0	6.36E-06	4.16E-06	0	0	0	0.00187845	0.000431322	0.00129624	0
-Sample_2	0.00046572	0	0.000713339	2.15E-06	1.78E-05	6.55E-06	0	0	0	0.00123159	0.000427736	0.00124583	7.24E-06
+Sample	K00001	K00002	K00003	K00004	K00005	K00010	K00006	K00011	K00007
+Sample_1	0.1	  0	      0.3	    0.1	    0.1	    0.1	    0.1	    0	      0.2
+Sample_2	0.3	  0.1	    0.1	    0	      0.1	    0.2	    0	      0.1	    0.1
+Sample_3	0	    0.2	    0.1	    0.3	    0	      0	      0.4	    0	      0
 ...
-
+Sample_N	0	    0.3	    0.1	    0.1	    0.4      0	      0	    0.1	      0
 ```
 
 
@@ -114,20 +115,22 @@ The format of a gene profile list of training WGS samples:
 ```
 Sample_1	Sample_2.ko.out
 Sample_2	Sample_2.ko.out
+Sample_3	Sample_3.ko.out
 ...
+Sample_N	Sample_N.ko.out
 ```
 And the format of a single sample’s gene profile:
 ```
-#Gene output
-K01153  53.07
-K00881  2.172
-K07726  2.48
-K16924  17.664
-K02077  101.677
-K03698  10.143
-K07461  41.5
-K00097  100.787
-...
+#KO Count
+K00001	0.1
+K00002	0
+K00003	0.3
+K00004	0.1
+K00005	0.1
+K00010	0.1
+K00006	0.1
+K00011	0
+K00007	0.2
 ```
 **b. Sample lists** 
 
