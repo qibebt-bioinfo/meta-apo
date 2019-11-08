@@ -54,7 +54,7 @@ source install.sh
 
 The package should take less than 1 minute to install on a computer with the specifications recommended above.
 
-The example dataset could be found at “example” folder. Check the “example/Readme” for details about the demo run.
+The example dataset could be found at “examples” folder. Check the “examples/Readme” for details about the demo run.
 
 ## Manual Installation
 
@@ -89,7 +89,7 @@ meta-apo-calibrate -t 16s.all.ko.abd -m meta-apo-model.txt -o meta-apo-calibrate
 ```
 The source files for example of customized reference is available as [Supplementary](#supplementary).
 # Example dataset
-Here we provide a demo dataset (Dataset 1) with relative abundance of amplicon microbiomes of 15 paired pairs in "example" folder. In this package, "16s.KO.abd" is relative abundance of the amplicon microbiomes in 15 WGS-amplicon pairs for training, "wgs.KO.abd" is relative abundance of the WGS microbiomes in WGS-amplicon pairs for training, "16s.all.KO.abd" is relative abundance of all amplicon microbiomes for calibration.
+Here we provide a demo dataset (Dataset 1) with relative abundance of 622 WGS-microbiomes pairs in "examples" folder. In this package, "16s.KO.abd" is relative abundance of the amplicon microbiomes in 15 WGS-amplicon pairs for training, "wgs.KO.abd" is relative abundance of the WGS microbiomes in WGS-amplicon pairs for training, "16s.all.KO.abd" is relative abundance of all amplicon microbiomes for calibration.
 
 To run the demo, you can either:
 ```
