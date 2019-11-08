@@ -96,9 +96,10 @@ in which parameter “-T” assigns the gene relative abundance table of trainin
 The format of a gene profile table of training WGS samples:  
 ```
 Sample	K00001	K00002	K00003	K00004	K00005	K00010	K00006	K00011	K00007
-Sample_1	0.1	  0	      0.3	    0.1	    0.1	    0.1	    0.1	    0	      0.2
-Sample_2	0.3	  0.1	    0.1	    0	      0.1	    0.2	    0	      0.1	    0.1
-Sample_3	0	    0.2	    0.1	    0.3	    0	      0	      0.4	    0	      0
+Sample_1	0.1	0	0.3	0.1	0.1	0.1	0.1	0	0.2
+Sample_2	0.3	0.1	0.1	0	0.1	0.2	0	0.1	0.1
+Sample_3	0	0.2	0.1	0.3	0	0	0.4	0	0
+
 ...
 Sample_N	0	    0.3	    0.1	    0.1	    0.4      0	      0	    0.1	      0
 ```
