@@ -83,7 +83,7 @@ In the training step, Meta-Apo builds a model by a small number of amplicon-WGS 
 ```
 meta-apo-train -t wgs.training.KO.abd -T 16s.training.KO.abd -o meta-apo-model.txt
 ```
-The parameter 't' requires the abundance table of WGS microbiomes in the WGS-amplicon pairs and the parameter 'T' requires the abundance table of amplicon microbiomes in the WGS-amplicon pairs.  
+The parameter 't' requires the abundance table of WGS microbiomes in the WGS-amplicon pairs and the parameter 'T' requires the abundance table of corresponding amplicon microbiomes.  
 The output file “meta-apo-model.txt” is the mapping model.   
 
 
