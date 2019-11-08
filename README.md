@@ -77,7 +77,7 @@ cd meta-apo
 make
 ```
 # Usage
-The Meta-Apo consists of two steps: a. training and b. calibration. Currently the Meta-Apo requires all functional gene profiles to be annotated using KEGG Ontology. 
+The Meta-Apo consists of two steps: **a. training** and **b. calibration**. Currently the Meta-Apo requires all functional gene profiles to be annotated using KEGG Ontology. 
 
 
 **I. Training for KO abundance calibration** 
