@@ -1,4 +1,4 @@
-// Updated at Aug 23, 2019
+// Updated at Dec 8, 2019
 // Updated by Xiaoquan Su
 // Bioinformatics Group, Single-Cell Research Center, QIBEBT, CAS
 // Key calibration
@@ -172,33 +172,45 @@ int main(int argc, char * argv[]){
 				break;	
 	   }
        case 2:{ 
-           	_Table_Format input_table(Input_table.c_str(),!Reversed_table);
+           	    //Table for input
+                _Table_Format input_table(Input_table.c_str(),!Reversed_table);
+           	    //Table for output
+				vector <string> genes;
+				for (int i = 0; i < comp_tree_func.Get_GeneN(); i ++)
+				    genes.push_back(comp_tree_func.Get_Gene_Name(i));				
+                _Table_Format output_table(genes);
+				
             	int input_count = input_table.Get_Sample_Size();
             	float ** input_abd = new float * [input_count];
             	float ** cal_abd = new float * [input_count]; 
             	for (int i = 0; i < input_count; i ++){
             		input_abd[i] = new float [comp_tree_func.Get_GeneN()];
-			comp_tree_func.Load_Gene_Count(&input_table, input_abd[i], i);
+			        comp_tree_func.Load_Gene_Count(&input_table, input_abd[i], i);
             	}
             	for (int i = 0; i < input_count; i ++){
         			cal_abd[i] = new float [comp_tree_func.Get_GeneN()];
         			key_calibrate.Calibrate(input_abd[i], cal_abd[i]);
+        			
+        			//normalize
+        			float sum = 0;
+        			for (int j = 0; j < comp_tree_func.Get_GeneN(); j ++)
+        			    sum += cal_abd[i][j];
+    			    if (sum <=0) continue;
+    			    for (int j = 0; j < comp_tree_func.Get_GeneN(); j ++)
+        			    cal_abd[i][j] /= sum;  
+                    
+                    vector <float> cal_abd_vector(cal_abd[i], cal_abd[i] + comp_tree_func.Get_GeneN());
+                    
+                    output_table.Add_Abd(cal_abd_vector, input_table.Get_Sample_Names()[i]); 			    
 				}
-		ofstream outfile(Outpath.c_str(), ios::out);
-		if(!outfile){
-			cerr << "Can't open the file " << Outpath << endl;
-			exit(0);
-			}
-		outfile << "SampleID";
-		for(int i = 0 ; i < input_table.Get_Feature_Size(); i++)
-			outfile << "\t" << input_table.Get_Feature_Names()[i];
-		outfile << endl;
-		for (int i = 0; i < input_count; i ++){
-			outfile << input_table.Get_Sample_Names()[i] + ".cal";
-			for(int j = 0; j< input_table.Get_Feature_Size(); j++)
-				outfile << "\t" << cal_abd[i][j];
-			outfile << endl;
-            		}	
+				
+				//output
+				output_table.Filter_Empty();
+				
+				if (!Reversed_table)
+				   output_table.Output_Table(Outpath.c_str());
+	            else output_table.Output_Table_Rev(Outpath.c_str());
+	
 				break;
             }
             
