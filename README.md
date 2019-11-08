@@ -114,7 +114,9 @@ The training amplicon table is in the same format, and order of each sample is e
 meta-apo-train -L training.wgs.list -t training.16s.list -o meta-apo.model
 ```
 
-in which parameter “-L” assigns the file list of training WGS samples and “-t” assigns that of training amplicons. Orders of paired samples should be exactly consistent in the input WGS and amplicon lists. In the input list, each line contains the path of one single sample’s gene profile.    
+in which parameter “-L” assigns the file list of training WGS samples and “-t” assigns that of training amplicons. Orders of paired samples should be exactly consistent in the input WGS and amplicon lists. In the input list, each line contains the path of one single sample’s gene profile. 
+
+
 The format of a gene profile list of training WGS samples: 
 ```
 Sample1	/home/data/sample1.ko.out
