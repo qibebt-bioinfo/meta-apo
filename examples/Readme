@@ -1,4 +1,4 @@
-#Here we provide a demo dataset with 15 paired WGS-amplicon microbiomes for training, and 622 V3-V5 16S rRNA amplicon samples for calibration.
+#Here we provide a demo dataset with 15 paired WGS-amplicon microbiomes for model training, and then calibrate the predicted gene profiles of 622 V3-V5 region 16S rRNA amplicon samples.
 #File description
 #training.wgs.ko.abd: the gene relative abundance table of 15 training WGS samples for training.
 #training.16s.ko.abd: the gene relative abundance table of 15 paired training amplicon samples for training.
