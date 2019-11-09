@@ -57,6 +57,6 @@ source $PATH_File
 echo -e "\n**Environment Variables Configuration Complete**"
 ###End
 echo -e "\n**Meta-Apo Installation Complete**"
-echo -e "\n**An example dataset with demo script is available in \"example\"**"
+echo -e "\n**An example dataset with demo script is available in \"examples\"**"
 
 
