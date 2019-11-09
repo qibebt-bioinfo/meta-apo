@@ -1,4 +1,4 @@
-// Updated at Dec 8, 2019
+// Updated at Nov 8, 2019
 // Updated by Xiaoquan Su
 // Bioinformatics Group, Single-Cell Research Center, QIBEBT, CAS
 // Key calibration
