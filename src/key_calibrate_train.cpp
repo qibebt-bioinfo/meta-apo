@@ -47,7 +47,7 @@ int printhelp(){
     cout << "\t  -R (upper) If the input table is reversed, T(rue) or F(alse), default is false [Optional for -T and -t]" << endl;
     
     cout << "\t[Output options]" << endl;
-    cout << "\t  Output mode file, default is \"meta-apo.model\" " << endl;
+    cout << "\t  -o Output mode file, default is \"meta-apo.model\" " << endl;
 	
     cout << "\t[Other options]" << endl;
     cout << "\t  -h Help" << endl;

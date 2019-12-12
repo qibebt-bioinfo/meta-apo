@@ -100,10 +100,10 @@ int Parse_Para(int argc, char * argv[]){
     	}
     
     key_calibrate = _Key_Calibrate(Modelfilename.c_str());
-    if(Outpath[Outpath.size()-1]!='/')
-        Outpath_list = "./" + Outpath + ".list";
+    if(Outpath[Outpath.size()-1] != '/')
+        Outpath_list = Outpath + ".list";
     else
-        Outpath_list =  "./" + Outpath.substr(0, Outpath.size()-1) + ".list";
+        Outpath_list = Outpath.substr(0, Outpath.size()-1) + ".list";
     }
 
 int Output_Key(const char * outfilename, float * abd, int dim){
