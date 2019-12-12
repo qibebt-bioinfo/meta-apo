@@ -158,7 +158,7 @@ The output file “16s.ko.calibrated.abd” is the calibrated gene abundance tab
 
 **b. Sample list**  
 ```
-meta-apo-train -l 16s.ko.list -m meta-apo.model -o 16s.ko.calibrated.out
+meta-apo-calibrate -l 16s.ko.list -m meta-apo.model -o 16s.ko.calibrated.out
 ```
 The output folder “16s.ko.calibrated.out” contains the calibrated gene profiles of each single input sample, and the file list of calibrated samples is also output to “16s.ko.calibrated.out.list”.  
 
