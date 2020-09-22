@@ -10,7 +10,7 @@
 #include <map>
 #include <vector>
 #include <string.h>
-#include <omp.h>
+
 
 #include "utility.h"
 #include "version.h"
