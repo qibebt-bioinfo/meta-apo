@@ -4,10 +4,28 @@
 ###Updated by Xiaoquan Su, Honglei Wang, Gongchao Jing
 #!/bin/bash
 ##Users can change the default environment variables configuration file here
-PATH_File=~/.bashrc
-if [ ! -f "$PATH_File" ]
-   then
-       PATH_File=~/.bash_profile
+if [[ $SHELL = '/bin/zsh' ]];
+then
+        PATH_File=~/.zshrc
+        if [ ! -f "$PATH_File" ]
+        then
+                PATH_File=~/.zsh_profile
+                if [ ! -f "$PATH_File" ]
+                then
+                        touch $PATH_File
+                fi
+        fi
+else
+        PATH_File=~/.bashrc
+        if [ ! -f "$PATH_File" ]
+        then
+                PATH_File=~/.bash_profile
+                if [ ! -f "$PATH_File" ]
+                then
+                        touch $PATH_File
+                fi
+        fi
+
 fi
 DM_PATH=`pwd`
 Sys_ver=`uname`
