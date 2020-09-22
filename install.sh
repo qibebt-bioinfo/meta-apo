@@ -51,7 +51,7 @@ if [ "$Check_old_metaapo" != "" ]
       Checking=`grep ^export\ MetaApo  $PATH_File|awk -F '=' '{print $2}'`
       if [ "$Checking" != "$DM_PATH" ]
          then
-         if [ "$Sys_ver" -eq "Darwin" ]
+         if [ "$Sys_ver" = "Darwin" ]
             then
             sed -i "" "s/^export\ MetaApo/$Add_Part\ &/g" $PATH_File
             sed -i "" -e $"`grep -n "$Add_Part" $PATH_File | cut -d ":" -f 1 | head -1` a\ 
@@ -62,11 +62,11 @@ if [ "$Check_old_metaapo" != "" ]
              sed -i "/$Add_Part\ export\ MetaApo/a export\ MetaApo=$DM_PATH" $PATH_File
          fi
      fi    
-elif [ "$Check_old_metaapo" -eq "" ]
+elif [ "$Check_old_metaapo" = "" ]
     then
       echo "export MetaApo="${DM_PATH} >> $PATH_File
 fi
-if [ "$Check_old_path" -eq "" ]
+if [ "$Check_old_path" = "" ]
     then
       echo "export PATH=\$PATH:\$MetaApo/bin" >> $PATH_File
 fi
