@@ -696,9 +696,9 @@ void _Table_Format::Calc_Dist_Matrix(const char * outfilename, int metrics, int 
       for (long i = 0; i < iter; i ++)
         dist_matrix.push_back(0);
       
-      omp_set_num_threads(coren);
+      //omp_set_num_threads(coren);
       
-      #pragma omp parallel for schedule(dynamic, 1)
+      //#pragma omp parallel for schedule(dynamic, 1)
       for (long i = 0; i < iter; i ++){
         
          long m = order_m[i];
@@ -764,9 +764,9 @@ void _Table_Format::Calc_Corr_Matrix(const char * outfilename, int metrics, int 
       for (long i = 0; i < iter; i ++)
         corr_matrix.push_back(0);
       
-      omp_set_num_threads(coren);
+      //omp_set_num_threads(coren);
       
-      #pragma omp parallel for schedule(dynamic, 1)
+      //#pragma omp parallel for schedule(dynamic, 1)
       for (long i = 0; i < iter; i ++){
         
          long m = order_m[i];
