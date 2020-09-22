@@ -58,8 +58,8 @@ if [ "$Check_old_metaapo" != "" ]
             export\ MetaApo=$DM_PATH
             " $PATH_File
          else
-             sed -i "s/^export\ MetaApo/$Add_Part\ &/g" $PATH_File
-             sed -i "/$Add_Part\ export\ MetaApo/a export\ MetaApo=$DM_PATH" $PATH_File
+             sed -i "" "s/^export\ MetaApo/$Add_Part\ &/g" $PATH_File
+             sed -i "" "/$Add_Part\ export\ MetaApo/a export\ MetaApo=$DM_PATH" $PATH_File
          fi
      fi    
 elif [ "$Check_old_metaapo" = "" ]
