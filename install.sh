@@ -30,7 +30,7 @@ fi
 DM_PATH=`pwd`
 Sys_ver=`uname`
 ###Checking that environment variable of Meta-Apo exists###
-Check_old_pm=`grep "export MetaApo"  $PATH_File|awk -F '=' '{print $1}'`
+Check_old_metaapo=`grep "export MetaApo"  $PATH_File|awk -F '=' '{print $1}'`
 Check_old_path=`grep "MetaApo/bin"  $PATH_File |sed 's/\(.\).*/\1/' |awk '{if($1!="#"){print "Ture";}}'`
 Add_Part="####DisabledbyMeta-Apo####"
 echo "**Meta-Apo Installation**"
@@ -46,7 +46,7 @@ else
 fi
 ###Configure environment variables###
 
-if [ "$Check_old_pm" != "" ]
+if [ "$Check_old_metaapo" != "" ]
    then
       Checking=`grep ^export\ MetaApo  $PATH_File|awk -F '=' '{print $2}'`
       if [ "$Checking" != "$DM_PATH" ]
@@ -62,7 +62,7 @@ if [ "$Check_old_pm" != "" ]
              sed -i "/$Add_Part\ export\ MetaApo/a export\ MetaApo=$DM_PATH" $PATH_File
          fi
      fi    
-elif [ "$Check_old_pm" -eq "" ]
+elif [ "$Check_old_metaapo" -eq "" ]
     then
       echo "export MetaApo="${DM_PATH} >> $PATH_File
 fi
