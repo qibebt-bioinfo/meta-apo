@@ -1,6 +1,6 @@
 ###Meta-Apo installer
 ###Bioinformatics Group, Single-Cell Research Center, QIBEBT, CAS
-###Updated at Nov. 07, 2019 
+###Updated at Sep. 22, 2020 
 ###Updated by Xiaoquan Su, Honglei Wang, Gongchao Jing
 #!/bin/bash
 ##Users can change the default environment variables configuration file here
