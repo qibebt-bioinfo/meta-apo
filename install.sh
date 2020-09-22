@@ -54,12 +54,12 @@ if [ "$Check_old_metaapo" != "" ]
          if [ "$Sys_ver" = "Darwin" ]
             then
             sed -i "" "s/^export\ MetaApo/$Add_Part\ &/g" $PATH_File
-            sed -i "" -e $"`grep -n "$Add_Part" $PATH_File | cut -d ":" -f 1 | head -1` a\ 
+            sed -i "" -e "`grep -n "$Add_Part" $PATH_File | cut -d ":" -f 1 | head -1` a\ 
             export\ MetaApo=$DM_PATH
             " $PATH_File
          else
-             sed -i "" "s/^export\ MetaApo/$Add_Part\ &/g" $PATH_File
-             sed -i "" "/$Add_Part\ export\ MetaApo/a export\ MetaApo=$DM_PATH" $PATH_File
+             sed -i "s/^export\ MetaApo/$Add_Part\ &/g" $PATH_File
+             sed -i "/$Add_Part\ export\ MetaApo/a export\ MetaApo=$DM_PATH" $PATH_File
          fi
      fi    
 elif [ "$Check_old_metaapo" = "" ]
