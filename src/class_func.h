@@ -293,8 +293,8 @@ int _KO_OTU_Table_All::Load_Sample_Multi(vector<string> infilename, vector <stri
             
             }
         
-        omp_set_num_threads(coren);
-        #pragma omp parallel for schedule(dynamic, 1)
+        //omp_set_num_threads(coren);
+        //#pragma omp parallel for schedule(dynamic, 1)
         for(int i = 0; i < infilename.size(); i ++)
             Load_Sample_By_OTU(&(otu_seq_count[i]), i);
         
@@ -320,8 +320,8 @@ int _KO_OTU_Table_All::Load_Sample_By_OTU_Table(_Table_Format * table, int coren
                     }
             }
         
-        omp_set_num_threads(coren);
-        #pragma omp parallel for schedule(dynamic, 1)
+        //omp_set_num_threads(coren);
+        //#pragma omp parallel for schedule(dynamic, 1)
         for(int i = 0; i < table->Get_Sample_Size(); i ++)
             Load_Sample_By_OTU(&(otu_seq_count[i]), i);
         
