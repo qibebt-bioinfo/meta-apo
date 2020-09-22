@@ -33,11 +33,7 @@ Meta-Apo only requires a standard computer with >1GB RAM to support the operatio
 
 ## Software Requirements
 
-Meta-Apo only requires a C++ compiler (e.g. g++) to build the source code. Most Linux releases have C++ compiler already been installed in the system. In Mac OS X, to install the compiler, we recommend using the Homebrew package manager:
-```
-brew install gcc --without-multilib
-```
-
+Meta-Apo only requires a C++ compiler (e.g. g++) to build the source code.
 # Installation guide
 
 ## Automatic Installation (recommended)
