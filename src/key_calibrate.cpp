@@ -1,6 +1,6 @@
-// Updated at Nov 8, 2019
-// Updated by Xiaoquan Su
-// Bioinformatics Group, Single-Cell Research Center, QIBEBT, CAS
+// Updated at Sep. 23, 2020
+// Updated by Gongchao Jing, Xiaoquan Su
+// Bioinformatics Group, Single-Cell Research Center, QIBEBT, CAS & Bioinformatics Group, College of Computer Science & Technology, Qingdao University
 // Key calibration
 
 //_Key_Calibrate.Tran(wgs, 16s)
