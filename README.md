@@ -196,4 +196,4 @@ We also provide more datasets for test run, which is used in the manuscript “M
 
 # Reference
 1. Abubucker, S., et al., _Metabolic Reconstruction for Metagenomic Data and Its Application to the Human Microbiome_. 2012.
-2. Langille, M.G., et al., _Predictive functional profiling of microbial communities using 16S rRNA marker gene sequences. Nat Biotechnol_, 2013. 31(9): p. 814-21.
+2. Douglas, G.M., et al., _PICRUSt2 for prediction of metagenome functions. Nat Biotechnol_, 2020. 38(6):685-688.
