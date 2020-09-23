@@ -195,5 +195,5 @@ We also provide more datasets for test run, which is used in the manuscript “M
 [Dataset 4](http://bioinfo.single-cell.cn/Released_Software/meta-apo/dataset4.tar.gz) (~325 MB) contains unpaired 2,045 WGS samples and 2,186 V1-V3 16S rRNA amplicon samples.
 
 # Reference
-1. Abubucker, S., et al., _Metabolic Reconstruction for Metagenomic Data and Its Application to the Human Microbiome_. 2012.
-2. Douglas, G.M., et al., _PICRUSt2 for prediction of metagenome functions. Nat Biotechnol_, 2020. 38(6):685-688.
+1. Abubucker, S., et al., Metabolic Reconstruction for Metagenomic Data and Its Application to the Human Microbiome. _PLoS Computational Biology_, 2012, 8(6): e1002358.
+2. Douglas, G.M., et al., PICRUSt2 for prediction of metagenome functions. _Nat Biotechnol_, 2020, 38(6): 685-688.
