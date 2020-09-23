@@ -129,9 +129,9 @@ int Output_Key(const char * outfilename, float * abd, int dim){
 }
 
 int main(int argc, char * argv[]){
-	
+		
 	Parse_Para(argc, argv); 
-                  
+	cout << "Meta-Apo Calibration Starts" << endl;
     switch (Mode) {
        case 0: {
 				float * abd = new float [comp_tree_func.Get_GeneN()];
@@ -216,6 +216,7 @@ int main(int argc, char * argv[]){
             
        default: break;
        }
+    cout << "Meta-Apo Calibration Finished" << endl;
 	
     return 0;
 	
