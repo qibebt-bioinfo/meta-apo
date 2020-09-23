@@ -95,7 +95,8 @@ int Parse_Para(int argc, char * argv[]){
 
 int main(int argc, char * argv[]){
 	
-	Parse_Para(argc, argv); 
+	Parse_Para(argc, argv);
+    cout << "Meta-Apo Training Starts" << endl;
     _Comp_Tree_Func comp_tree_func;
     _Key_Calibrate key_calibrate(comp_tree_func.Get_GeneN());
                   
@@ -173,7 +174,7 @@ int main(int argc, char * argv[]){
        }
 	
 	key_calibrate.Output_Model(Modelfilename.c_str());
-	
+    cout << "Meta-Apo Training Finished" << endl;
     return 0;
 	
 }
