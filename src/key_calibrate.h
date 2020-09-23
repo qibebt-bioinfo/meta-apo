@@ -100,6 +100,7 @@ int _Key_Calibrate::Train(float ** ref_abd, float ** target_abd, int pair_count)
 	
 	//vector <_OLS> pos_OLS (Key_dim, _OLS());
 	//vector <_OLS> neg_OLS (Key_dim, _OLS());
+	cout << "Meta-Apo Training Starts" << endl;
 	vector <_OLS> this_model (Key_dim, _OLS());
 	
 	for (int i = 0; i < pair_count; i ++){
@@ -130,6 +131,7 @@ int _Key_Calibrate::Train(float ** ref_abd, float ** target_abd, int pair_count)
             
             this_model[j].Add_Pt(target_abd[i][j], ref_abd[i][j]);
             }
+	
 
 	}
 	
@@ -151,12 +153,14 @@ int _Key_Calibrate::Train(float ** ref_abd, float ** target_abd, int pair_count)
 	}
 	
 	Model_OLS = this_model;
+	cout << "Meta-Apo Training Finished" << endl;
 	return 0;	
 }
 
 void _Key_Calibrate::Calibrate(float * abd, float * cal_abd){
 	
 	//norm
+	cout << "Meta-Apo Calibration Starts" << endl;
 	float abd_sum = 0;
 	for (int i = 0; i < Key_dim; i ++){
         cal_abd[i] = abd[i];
@@ -181,6 +185,7 @@ void _Key_Calibrate::Calibrate(float * abd, float * cal_abd){
 	    //debug
 	    //cout << cal_abd[i] << "\t" <<  Model_OLS[i].Get_N() << "\t" << Model_OLS[i].Get_Beta_0() << "\t" << Model_OLS[i].Get_Beta_1() << endl;
     }
+	cout << "Meta-Apo Calibration Finished" << endl;
 }
 
 #endif
