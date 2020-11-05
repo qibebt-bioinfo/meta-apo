@@ -187,7 +187,7 @@ This demo run should take less than 2 minutes on a recommended computer.
 
 
 # Supplementary
-We also provide more datasets for test run, which is used in the manuscript “Meta-Apo improves accuracy of 16S-amplicon-based prediction of microbiome function”. All samples were produced by Human Microbiome Project stage I. Gene profiles of WGS samples were directly analyzed by HuMANn 2. and gene profiles of amplicons were inferred by PICRUSt 2. 
+We also provide more datasets for test run, which is used in the manuscript “Meta-Apo improves accuracy of 16S-amplicon-based prediction of microbiome function”. Gene profiles of WGS samples were directly analyzed by HuMANn 2. and gene profiles of amplicons were inferred by PICRUSt 2. 
 
 [Dataset 1](http://bioinfo.single-cell.cn/Released_Software/meta-apo/dataset1.tar.gz) (~109 MB) contains 622 paired samples of WGS and V3-V5 region 16S rRNA amplicon samples (also integrated in the source code package as example dataset for demo run).  
 [Dataset 2](http://bioinfo.single-cell.cn/Released_Software/meta-apo/dataset2.tar.gz) (~47 MB) contains 295 paired samples of WGS and V1-V3 region 16S rRNA amplicon samples.   
