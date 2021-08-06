@@ -23,14 +23,14 @@ using namespace std;
 
 string Check_Env(){
     
-    if (getenv("MetaApo") == NULL){
+    if (getenv("PREFIX") == NULL){
                                
-                               cerr << "Error: Please set the environment variable \"MetaApo\" to the directory" << endl;
+                               cerr << "Error: Please set the environment variable \"PREFIX\" to the directory" << endl;
                                exit(0);
                                
                                    }
     
-    string path =  getenv("MetaApo");
+    string path =  getenv("PREFIX");
     return path;
     
     }
