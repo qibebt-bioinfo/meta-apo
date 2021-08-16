@@ -1,4 +1,4 @@
-// Updated at Aug 28, 2019
+// Updated at Aug 16, 2021
 // Updated by Xiaoquan Su
 // Bioinformatics Group, Single-Cell Research Center, QIBEBT, CAS
 
@@ -23,14 +23,14 @@ using namespace std;
 
 string Check_Env(){
     
-    if (getenv("PREFIX") == NULL){
+    if (getenv("MetaApo") == NULL){
                                
-                               cerr << "Error: Please set the environment variable \"PREFIX\" to the directory" << endl;
+                               cerr << "Error: Please set the environment variable \"MetaApo\" to the directory" << endl;
                                exit(0);
                                
                                    }
     
-    string path =  getenv("PREFIX");
+    string path =  getenv("MetaApo");
     return path;
     
     }
